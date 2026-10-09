@@ -1,0 +1,11 @@
+{
+  "Entries": [
+    {
+      "$type": "OEIFormats.Tools.ManifestData+ConversationManifestEntry, OEIFormats",
+      "DisplayType": 0,
+      "IncludesPlayer": true,
+      "ID": "c15b5bd5-0f7e-4bfe-9351-d467c6c670e0",
+      "Filename": "/conversations/99_custom_arena/99_custom_arena_master_script.conversationbundle"
+    }
+  ]
+}

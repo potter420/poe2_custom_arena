@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<StringTableFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>conversations\09_port_maje\09_cv_beodul_port_maje</Name>
+  <Entries>
+    <Entry>
+      <ID>44</ID>
+      <DefaultText>[Leave] Go to the Grand Arena</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>45</ID>
+      <DefaultText>Well Fuck you</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>47</ID>
+      <DefaultText>Good luck in the Grand Arena</DefaultText>
+      <FemaleText />
+    </Entry>
+  </Entries>
+</StringTableFile>

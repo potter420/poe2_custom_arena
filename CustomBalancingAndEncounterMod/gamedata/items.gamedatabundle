@@ -1,0 +1,18 @@
+{
+  "GameDataObjects": [
+    {
+      "$type": "Game.GameData.ItemModGameData, Assembly-CSharp",
+      "DebugName": "Mod_Pet_Pig_Cosmo",
+      "ID": "e5715aab-7c78-4de0-97b1-5c10053a92e4",
+      "Components": [
+        {
+          "$type": "Game.GameData.ItemModComponent, Assembly-CSharp",
+          "AbilitiesOnEquipIDs": [
+            "ebb3cf29-c284-43f7-b6ac-bae0a738d38c",
+            "d2b13454-1c39-4e5c-8afe-627f50532480"
+          ]
+        }
+      ]
+    }
+  ]
+}

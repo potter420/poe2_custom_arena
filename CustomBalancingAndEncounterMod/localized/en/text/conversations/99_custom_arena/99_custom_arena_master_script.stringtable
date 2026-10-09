@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<StringTableFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>conversations\99_custom_arena\99_custom_arena_master_script</Name>
+  <Entries>
+    <Entry>
+      <ID>1</ID>
+      <DefaultText>Another Watcher come to look into the water. Careful. It looks back, and it has a long memory.
+Galawain asks one question of every living thing, and he asks it again each time you answer. Step into the ring and hear it.
+
+Just a side note, you have [Global n_custom_arena_total_victory] wins</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>2</ID>
+      <DefaultText>[Battle] Send the next one.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>3</ID>
+      <DefaultText>[Leave] Enough. Take me back.</DefaultText>
+      <FemaleText />
+    </Entry>
+  </Entries>
+</StringTableFile>

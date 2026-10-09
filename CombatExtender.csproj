@@ -1,0 +1,64 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net35</TargetFramework>
+    <AssemblyName>CombatExtender</AssemblyName>
+    <RootNamespace>CombatExtender</RootNamespace>
+    <Version>0.1.0</Version>
+    <LangVersion>latest</LangVersion>
+    <Nullable>disable</Nullable>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- Lets the modern dotnet SDK build net35 without Visual Studio / targeting packs installed. -->
+    <PackageReference Include="Microsoft.NETFramework.ReferenceAssemblies" Version="1.0.3" PrivateAssets="all" />
+  </ItemGroup>
+
+  <!-- Game + BepInEx 5 assemblies. Paths come from Directory.Build.props.
+       Private=false: they already exist in the game, so don't copy them to the output. -->
+  <ItemGroup>
+    <Reference Include="Assembly-CSharp">
+      <HintPath>$(ManagedDir)\Assembly-CSharp.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="OEIFormats">
+      <HintPath>$(ManagedDir)\OEIFormats.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="OEICommon">
+      <HintPath>$(ManagedDir)\OEICommon.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="UnityEngine">
+      <HintPath>$(ManagedDir)\UnityEngine.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="BepInEx">
+      <HintPath>$(BepInExCoreDir)\BepInEx.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="0Harmony">
+      <HintPath>$(BepInExCoreDir)\0Harmony.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+  </ItemGroup>
+
+  <!-- Fail early with a readable message instead of a wall of missing-type errors. -->
+  <Target Name="CheckGamePaths" BeforeTargets="ResolveAssemblyReferences">
+    <Error Condition="'$(GameDir)' == ''" Text="GameDir is not set. Set it in Directory.Build.props or pass GAME_DIR=... to make." />
+    <Error Condition="!Exists('$(ManagedDir)\Assembly-CSharp.dll')" Text="Game assemblies not found in $(ManagedDir). Check GameDir." />
+    <Error Condition="!Exists('$(BepInExCoreDir)\BepInEx.dll')" Text="BepInEx 5 not found in $(BepInExCoreDir). Is BepInEx installed and run once?" />
+  </Target>
+
+  <!-- Copies the built mod DLL into ModInstallDir. Invoked by `make deploy`. -->
+  <Target Name="DeployMod">
+    <Error Condition="'$(ModInstallDir)' == ''" Text="ModInstallDir is not set. Set it in Directory.Build.props or pass MOD_DIR=... to make." />
+    <Error Condition="!Exists('$(TargetPath)')" Text="$(TargetPath) not found. Run a build first." />
+    <MakeDir Directories="$(ModInstallDir)" />
+    <Copy SourceFiles="$(TargetPath)" DestinationFolder="$(ModInstallDir)" />
+    <Message Importance="high" Text="Deployed $(TargetFileName) -> $(ModInstallDir)" />
+  </Target>
+
+</Project>

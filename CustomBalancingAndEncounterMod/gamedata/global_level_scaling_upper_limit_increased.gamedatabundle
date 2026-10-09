@@ -1,0 +1,555 @@
+{
+    "GameDataObjects": [
+        {
+            "$type": "Game.GameData.CharacterLevelScalingTableGameData, Assembly-CSharp",
+            "DebugName": "CL-DefaultScalingRules",
+            "ID": "311137d5-67c2-40ec-b21a-cf8dbd64ae1f",
+            "Components": [
+                {
+                    "$type": "Game.GameData.CharacterLevelScalingTableComponent, Assembly-CSharp",
+                    "ExpectedCharacterLevelAdjustments": [
+                        {
+                            "ExpectedDifferenceMin": -50,
+                            "ExpectedDifferenceMax": -4,
+                            "AdjustedLevelAmount": -4
+                        },
+                        {
+                            "ExpectedDifferenceMin": -3,
+                            "ExpectedDifferenceMax": -3,
+                            "AdjustedLevelAmount": -3
+                        },
+                        {
+                            "ExpectedDifferenceMin": -2,
+                            "ExpectedDifferenceMax": -2,
+                            "AdjustedLevelAmount": -2
+                        },
+                        {
+                            "ExpectedDifferenceMin": -1,
+                            "ExpectedDifferenceMax": -1,
+                            "AdjustedLevelAmount": -1
+                        },
+                        {
+                            "ExpectedDifferenceMin": 0,
+                            "ExpectedDifferenceMax": 1,
+                            "AdjustedLevelAmount": 0
+                        },
+                        {
+                            "ExpectedDifferenceMin": 2,
+                            "ExpectedDifferenceMax": 2,
+                            "AdjustedLevelAmount": 2
+                        },
+                        {
+                            "ExpectedDifferenceMin": 3,
+                            "ExpectedDifferenceMax": 3,
+                            "AdjustedLevelAmount": 3
+                        },
+                        {
+                            "ExpectedDifferenceMin": 4,
+                            "ExpectedDifferenceMax": 4,
+                            "AdjustedLevelAmount": 4
+                        },
+                        {
+                            "ExpectedDifferenceMin": 5,
+                            "ExpectedDifferenceMax": 5,
+                            "AdjustedLevelAmount": 5
+                        },
+                        {
+                            "ExpectedDifferenceMin": 6,
+                            "ExpectedDifferenceMax": 6,
+                            "AdjustedLevelAmount": 6
+                        },
+                        {
+                            "ExpectedDifferenceMin": 7,
+                            "ExpectedDifferenceMax": 7,
+                            "AdjustedLevelAmount": 7
+                        },
+                        {
+                            "ExpectedDifferenceMin": 8,
+                            "ExpectedDifferenceMax": 8,
+                            "AdjustedLevelAmount": 8
+                        },
+                        {
+                            "ExpectedDifferenceMin": 9,
+                            "ExpectedDifferenceMax": 9,
+                            "AdjustedLevelAmount": 9
+                        },
+                        {
+                            "ExpectedDifferenceMin": 10,
+                            "ExpectedDifferenceMax": 10,
+                            "AdjustedLevelAmount": 10
+                        },
+                        {
+                            "ExpectedDifferenceMin": 11,
+                            "ExpectedDifferenceMax": 11,
+                            "AdjustedLevelAmount": 11
+                        },
+                        {
+                            "ExpectedDifferenceMin": 12,
+                            "ExpectedDifferenceMax": 12,
+                            "AdjustedLevelAmount": 12
+                        },
+                        {
+                            "ExpectedDifferenceMin": 13,
+                            "ExpectedDifferenceMax": 13,
+                            "AdjustedLevelAmount": 13
+                        },
+                        {
+                            "ExpectedDifferenceMin": 14,
+                            "ExpectedDifferenceMax": 14,
+                            "AdjustedLevelAmount": 14
+                        },
+                        {
+                            "ExpectedDifferenceMin": 15,
+                            "ExpectedDifferenceMax": 15,
+                            "AdjustedLevelAmount": 15
+                        },
+                        {
+                            "ExpectedDifferenceMin": 16,
+                            "ExpectedDifferenceMax": 16,
+                            "AdjustedLevelAmount": 16
+                        },
+                        {
+                            "ExpectedDifferenceMin": 17,
+                            "ExpectedDifferenceMax": 17,
+                            "AdjustedLevelAmount": 17
+                        },
+                        {
+                            "ExpectedDifferenceMin": 18,
+                            "ExpectedDifferenceMax": 18,
+                            "AdjustedLevelAmount": 18
+                        },
+                        {
+                            "ExpectedDifferenceMin": 19,
+                            "ExpectedDifferenceMax": 19,
+                            "AdjustedLevelAmount": 19
+                        },
+                        {
+                            "ExpectedDifferenceMin": 20,
+                            "ExpectedDifferenceMax": 20,
+                            "AdjustedLevelAmount": 20
+                        },
+                        {
+                            "ExpectedDifferenceMin": 21,
+                            "ExpectedDifferenceMax": 21,
+                            "AdjustedLevelAmount": 21
+                        },
+                        {
+                            "ExpectedDifferenceMin": 22,
+                            "ExpectedDifferenceMax": 22,
+                            "AdjustedLevelAmount": 22
+                        },
+                        {
+                            "ExpectedDifferenceMin": 23,
+                            "ExpectedDifferenceMax": 23,
+                            "AdjustedLevelAmount": 23
+                        },
+                        {
+                            "ExpectedDifferenceMin": 24,
+                            "ExpectedDifferenceMax": 24,
+                            "AdjustedLevelAmount": 24
+                        },
+                        {
+                            "ExpectedDifferenceMin": 25,
+                            "ExpectedDifferenceMax": 25,
+                            "AdjustedLevelAmount": 25
+                        },
+                        {
+                            "ExpectedDifferenceMin": 26,
+                            "ExpectedDifferenceMax": 26,
+                            "AdjustedLevelAmount": 26
+                        },
+                        {
+                            "ExpectedDifferenceMin": 27,
+                            "ExpectedDifferenceMax": 27,
+                            "AdjustedLevelAmount": 27
+                        },
+                        {
+                            "ExpectedDifferenceMin": 28,
+                            "ExpectedDifferenceMax": 28,
+                            "AdjustedLevelAmount": 28
+                        },
+                        {
+                            "ExpectedDifferenceMin": 29,
+                            "ExpectedDifferenceMax": 29,
+                            "AdjustedLevelAmount": 29
+                        },
+                        {
+                            "ExpectedDifferenceMin": 30,
+                            "ExpectedDifferenceMax": 100,
+                            "AdjustedLevelAmount": 30
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "$type": "Game.GameData.CharacterLevelScalingTableGameData, Assembly-CSharp",
+            "DebugName": "CL-DefaultScalingRules_NamedCharacters",
+            "ID": "f2af3656-2352-483e-8dac-511ec8061734",
+            "Components": [
+                {
+                    "$type": "Game.GameData.CharacterLevelScalingTableComponent, Assembly-CSharp",
+                    "ExpectedCharacterLevelAdjustments": [
+                        {
+                            "ExpectedDifferenceMin": -50,
+                            "ExpectedDifferenceMax": -4,
+                            "AdjustedLevelAmount": -4
+                        },
+                        {
+                            "ExpectedDifferenceMin": -3,
+                            "ExpectedDifferenceMax": -3,
+                            "AdjustedLevelAmount": -3
+                        },
+                        {
+                            "ExpectedDifferenceMin": -2,
+                            "ExpectedDifferenceMax": -2,
+                            "AdjustedLevelAmount": -2
+                        },
+                        {
+                            "ExpectedDifferenceMin": -1,
+                            "ExpectedDifferenceMax": -1,
+                            "AdjustedLevelAmount": -1
+                        },
+                        {
+                            "ExpectedDifferenceMin": 0,
+                            "ExpectedDifferenceMax": 1,
+                            "AdjustedLevelAmount": 0
+                        },
+                        {
+                            "ExpectedDifferenceMin": 2,
+                            "ExpectedDifferenceMax": 2,
+                            "AdjustedLevelAmount": 2
+                        },
+                        {
+                            "ExpectedDifferenceMin": 3,
+                            "ExpectedDifferenceMax": 3,
+                            "AdjustedLevelAmount": 3
+                        },
+                        {
+                            "ExpectedDifferenceMin": 4,
+                            "ExpectedDifferenceMax": 4,
+                            "AdjustedLevelAmount": 4
+                        },
+                        {
+                            "ExpectedDifferenceMin": 5,
+                            "ExpectedDifferenceMax": 5,
+                            "AdjustedLevelAmount": 5
+                        },
+                        {
+                            "ExpectedDifferenceMin": 6,
+                            "ExpectedDifferenceMax": 6,
+                            "AdjustedLevelAmount": 6
+                        },
+                        {
+                            "ExpectedDifferenceMin": 7,
+                            "ExpectedDifferenceMax": 7,
+                            "AdjustedLevelAmount": 7
+                        },
+                        {
+                            "ExpectedDifferenceMin": 8,
+                            "ExpectedDifferenceMax": 8,
+                            "AdjustedLevelAmount": 8
+                        },
+                        {
+                            "ExpectedDifferenceMin": 9,
+                            "ExpectedDifferenceMax": 9,
+                            "AdjustedLevelAmount": 9
+                        },
+                        {
+                            "ExpectedDifferenceMin": 10,
+                            "ExpectedDifferenceMax": 10,
+                            "AdjustedLevelAmount": 10
+                        },
+                        {
+                            "ExpectedDifferenceMin": 11,
+                            "ExpectedDifferenceMax": 11,
+                            "AdjustedLevelAmount": 11
+                        },
+                        {
+                            "ExpectedDifferenceMin": 12,
+                            "ExpectedDifferenceMax": 12,
+                            "AdjustedLevelAmount": 12
+                        },
+                        {
+                            "ExpectedDifferenceMin": 13,
+                            "ExpectedDifferenceMax": 13,
+                            "AdjustedLevelAmount": 13
+                        },
+                        {
+                            "ExpectedDifferenceMin": 14,
+                            "ExpectedDifferenceMax": 14,
+                            "AdjustedLevelAmount": 14
+                        },
+                        {
+                            "ExpectedDifferenceMin": 15,
+                            "ExpectedDifferenceMax": 15,
+                            "AdjustedLevelAmount": 15
+                        },
+                        {
+                            "ExpectedDifferenceMin": 16,
+                            "ExpectedDifferenceMax": 16,
+                            "AdjustedLevelAmount": 16
+                        },
+                        {
+                            "ExpectedDifferenceMin": 17,
+                            "ExpectedDifferenceMax": 17,
+                            "AdjustedLevelAmount": 17
+                        },
+                        {
+                            "ExpectedDifferenceMin": 18,
+                            "ExpectedDifferenceMax": 18,
+                            "AdjustedLevelAmount": 18
+                        },
+                        {
+                            "ExpectedDifferenceMin": 19,
+                            "ExpectedDifferenceMax": 19,
+                            "AdjustedLevelAmount": 19
+                        },
+                        {
+                            "ExpectedDifferenceMin": 20,
+                            "ExpectedDifferenceMax": 20,
+                            "AdjustedLevelAmount": 20
+                        },
+                        {
+                            "ExpectedDifferenceMin": 21,
+                            "ExpectedDifferenceMax": 21,
+                            "AdjustedLevelAmount": 21
+                        },
+                        {
+                            "ExpectedDifferenceMin": 22,
+                            "ExpectedDifferenceMax": 22,
+                            "AdjustedLevelAmount": 22
+                        },
+                        {
+                            "ExpectedDifferenceMin": 23,
+                            "ExpectedDifferenceMax": 23,
+                            "AdjustedLevelAmount": 23
+                        },
+                        {
+                            "ExpectedDifferenceMin": 24,
+                            "ExpectedDifferenceMax": 24,
+                            "AdjustedLevelAmount": 24
+                        },
+                        {
+                            "ExpectedDifferenceMin": 25,
+                            "ExpectedDifferenceMax": 25,
+                            "AdjustedLevelAmount": 25
+                        },
+                        {
+                            "ExpectedDifferenceMin": 26,
+                            "ExpectedDifferenceMax": 26,
+                            "AdjustedLevelAmount": 26
+                        },
+                        {
+                            "ExpectedDifferenceMin": 27,
+                            "ExpectedDifferenceMax": 27,
+                            "AdjustedLevelAmount": 27
+                        },
+                        {
+                            "ExpectedDifferenceMin": 28,
+                            "ExpectedDifferenceMax": 28,
+                            "AdjustedLevelAmount": 28
+                        },
+                        {
+                            "ExpectedDifferenceMin": 29,
+                            "ExpectedDifferenceMax": 29,
+                            "AdjustedLevelAmount": 29
+                        },
+                        {
+                            "ExpectedDifferenceMin": 30,
+                            "ExpectedDifferenceMax": 100,
+                            "AdjustedLevelAmount": 30
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "$type": "Game.GameData.CharacterLevelScalingTableGameData, Assembly-CSharp",
+            "DebugName": "CL-DefaultScalingRules_SideQuest",
+            "ID": "29276145-43e8-400c-b9c1-9ea63a0298ce",
+            "Components": [
+                {
+                    "$type": "Game.GameData.CharacterLevelScalingTableComponent, Assembly-CSharp",
+                    "ExpectedCharacterLevelAdjustments": [
+                        {
+                            "ExpectedDifferenceMin": -50,
+                            "ExpectedDifferenceMax": -4,
+                            "AdjustedLevelAmount": -2
+                        },
+                        {
+                            "ExpectedDifferenceMin": -3,
+                            "ExpectedDifferenceMax": -3,
+                            "AdjustedLevelAmount": -1
+                        },
+                        {
+                            "ExpectedDifferenceMin": -2,
+                            "ExpectedDifferenceMax": -2,
+                            "AdjustedLevelAmount": 0
+                        },
+                        {
+                            "ExpectedDifferenceMin": -1,
+                            "ExpectedDifferenceMax": -1,
+                            "AdjustedLevelAmount": 1
+                        },
+                        {
+                            "ExpectedDifferenceMin": 0,
+                            "ExpectedDifferenceMax": 0,
+                            "AdjustedLevelAmount": 2
+                        },
+                        {
+                            "ExpectedDifferenceMin": 0,
+                            "ExpectedDifferenceMax": 0,
+                            "AdjustedLevelAmount": 3
+                        },
+                        {
+                            "ExpectedDifferenceMin": 2,
+                            "ExpectedDifferenceMax": 2,
+                            "AdjustedLevelAmount": 4
+                        },
+                        {
+                            "ExpectedDifferenceMin": 3,
+                            "ExpectedDifferenceMax": 3,
+                            "AdjustedLevelAmount": 5
+                        },
+                        {
+                            "ExpectedDifferenceMin": 4,
+                            "ExpectedDifferenceMax": 4,
+                            "AdjustedLevelAmount": 6
+                        },
+                        {
+                            "ExpectedDifferenceMin": 5,
+                            "ExpectedDifferenceMax": 5,
+                            "AdjustedLevelAmount": 7
+                        },
+                        {
+                            "ExpectedDifferenceMin": 6,
+                            "ExpectedDifferenceMax": 6,
+                            "AdjustedLevelAmount": 8
+                        },
+                        {
+                            "ExpectedDifferenceMin": 7,
+                            "ExpectedDifferenceMax": 7,
+                            "AdjustedLevelAmount": 9
+                        },
+                        {
+                            "ExpectedDifferenceMin": 8,
+                            "ExpectedDifferenceMax": 8,
+                            "AdjustedLevelAmount": 10
+                        },
+                        {
+                            "ExpectedDifferenceMin": 9,
+                            "ExpectedDifferenceMax": 9,
+                            "AdjustedLevelAmount": 11
+                        },
+                        {
+                            "ExpectedDifferenceMin": 10,
+                            "ExpectedDifferenceMax": 10,
+                            "AdjustedLevelAmount": 12
+                        },
+                        {
+                            "ExpectedDifferenceMin": 11,
+                            "ExpectedDifferenceMax": 11,
+                            "AdjustedLevelAmount": 13
+                        },
+                        {
+                            "ExpectedDifferenceMin": 12,
+                            "ExpectedDifferenceMax": 12,
+                            "AdjustedLevelAmount": 14
+                        },
+                        {
+                            "ExpectedDifferenceMin": 13,
+                            "ExpectedDifferenceMax": 13,
+                            "AdjustedLevelAmount": 15
+                        },
+                        {
+                            "ExpectedDifferenceMin": 14,
+                            "ExpectedDifferenceMax": 14,
+                            "AdjustedLevelAmount": 16
+                        },
+                        {
+                            "ExpectedDifferenceMin": 15,
+                            "ExpectedDifferenceMax": 15,
+                            "AdjustedLevelAmount": 17
+                        },
+                        {
+                            "ExpectedDifferenceMin": 16,
+                            "ExpectedDifferenceMax": 16,
+                            "AdjustedLevelAmount": 18
+                        },
+                        {
+                            "ExpectedDifferenceMin": 17,
+                            "ExpectedDifferenceMax": 17,
+                            "AdjustedLevelAmount": 19
+                        },
+                        {
+                            "ExpectedDifferenceMin": 18,
+                            "ExpectedDifferenceMax": 18,
+                            "AdjustedLevelAmount": 20
+                        },
+                        {
+                            "ExpectedDifferenceMin": 19,
+                            "ExpectedDifferenceMax": 19,
+                            "AdjustedLevelAmount": 21
+                        },
+                        {
+                            "ExpectedDifferenceMin": 20,
+                            "ExpectedDifferenceMax": 20,
+                            "AdjustedLevelAmount": 22
+                        },
+                        {
+                            "ExpectedDifferenceMin": 21,
+                            "ExpectedDifferenceMax": 21,
+                            "AdjustedLevelAmount": 23
+                        },
+                        {
+                            "ExpectedDifferenceMin": 22,
+                            "ExpectedDifferenceMax": 22,
+                            "AdjustedLevelAmount": 24
+                        },
+                        {
+                            "ExpectedDifferenceMin": 23,
+                            "ExpectedDifferenceMax": 23,
+                            "AdjustedLevelAmount": 25
+                        },
+                        {
+                            "ExpectedDifferenceMin": 24,
+                            "ExpectedDifferenceMax": 24,
+                            "AdjustedLevelAmount": 26
+                        },
+                        {
+                            "ExpectedDifferenceMin": 25,
+                            "ExpectedDifferenceMax": 25,
+                            "AdjustedLevelAmount": 27
+                        },
+                        {
+                            "ExpectedDifferenceMin": 26,
+                            "ExpectedDifferenceMax": 26,
+                            "AdjustedLevelAmount": 28
+                        },
+                        {
+                            "ExpectedDifferenceMin": 27,
+                            "ExpectedDifferenceMax": 27,
+                            "AdjustedLevelAmount": 29
+                        },
+                        {
+                            "ExpectedDifferenceMin": 28,
+                            "ExpectedDifferenceMax": 28,
+                            "AdjustedLevelAmount": 30
+                        },
+                        {
+                            "ExpectedDifferenceMin": 29,
+                            "ExpectedDifferenceMax": 29,
+                            "AdjustedLevelAmount": 31
+                        },
+                        {
+                            "ExpectedDifferenceMin": 30,
+                            "ExpectedDifferenceMax": 100,
+                            "AdjustedLevelAmount": 32
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,474 @@
+{
+  "GameDataObjects": [
+    {
+      "$type": "Game.GameData.ModalGroupGameData, Assembly-CSharp",
+      "DebugName": "Pet_Modal_Aura",
+      "ID": "9764b51a-0dcf-4438-82fa-bf1c3df7bd99",
+      "Components": [
+        {
+          "$type": "Game.GameData.ModalGroupComponent, Assembly-CSharp",
+          "DisplayName": 1256211000,
+          "MustBeActive": "false"
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.GenericAbilityGameData, Assembly-CSharp",
+      "DebugName": "Streetfighter_BloodiedAndFlanked",
+      "ID": "4e2d9645-60a3-4fa9-8d98-9e4f302d25e0",
+      "Components": [
+        {
+          "$type": "Game.GameData.GenericAbilityComponent, Assembly-CSharp",
+          "ActivationPrerequisites": {
+            "Conditional": {
+              "Operator": 0,
+              "Components": [
+                {
+                  "$type": "OEIFormats.FlowCharts.ConditionalExpression, OEIFormats",
+                  "Operator": 1,
+                  "Components": [
+                    {
+                      "$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+                      "Data": {
+                        "FullName": "Boolean IsHealthPercentage(Guid, Operator, Single)",
+                        "Parameters": [
+                          "7d150000-0000-0000-0000-000000000000",
+                          "LessThanOrEqualTo",
+                          "50"
+                        ]
+                      },
+                      "Not": false,
+                      "Operator": 0
+                    },
+                    {
+                      "$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+                      "Data": {
+                        "FullName": "Boolean HasAfflictionOfType(Guid, Guid)",
+                        "Parameters": [
+                          "7d150000-0000-0000-0000-000000000000",
+                          "4a0073d5-9fe8-4b01-89f1-a16caeff7925"
+                        ]
+                      },
+                      "Not": false,
+                      "Operator": 0
+                    }
+                  ]
+                },
+                {
+                  "$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+                  "Data": {
+                    "FullName": "Boolean HasStatusEffect(Guid, Guid)",
+                    "Parameters": [
+                      "7d150000-0000-0000-0000-000000000000",
+                      "df7f0c26-2d09-4c4c-aa58-d83283dbee8f"
+                    ]
+                  },
+                  "Not": false,
+                  "Operator": 0
+                }
+              ]
+            }
+          },
+          "DeactivationPrerequisites": {
+            "Conditional": {
+              "Operator": 0,
+              "Components": [
+                {
+                  "$type": "OEIFormats.FlowCharts.ConditionalExpression, OEIFormats",
+                  "Operator": 0,
+                  "Components": [
+                    {
+                      "$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+                      "Data": {
+                        "FullName": "Boolean IsHealthPercentage(Guid, Operator, Single)",
+                        "Parameters": [
+                          "7d150000-0000-0000-0000-000000000000",
+                          "LessThanOrEqualTo",
+                          "50"
+                        ]
+                      },
+                      "Not": true,
+                      "Operator": 1
+                    },
+                    {
+                      "$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+                      "Data": {
+                        "FullName": "Boolean HasAfflictionOfType(Guid, Guid)",
+                        "Parameters": [
+                          "7d150000-0000-0000-0000-000000000000",
+                          "4a0073d5-9fe8-4b01-89f1-a16caeff7925"
+                        ]
+                      },
+                      "Not": true,
+                      "Operator": 0
+                    }
+                  ]
+                },
+                {
+                  "$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+                  "Data": {
+                    "FullName": "Boolean HasStatusEffect(Guid, Guid)",
+                    "Parameters": [
+                      "7d150000-0000-0000-0000-000000000000",
+                      "df7f0c26-2d09-4c4c-aa58-d83283dbee8f"
+                    ]
+                  },
+                  "Not": true,
+                  "Operator": 0
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.GenericAbilityGameData, Assembly-CSharp",
+      "DebugName": "Streetfighter_BloodiedOrFlanked",
+      "ID": "369a0069-f7d0-4ef9-925b-d2e6b10cf78e",
+      "Components": [
+        {
+          "$type": "Game.GameData.GenericAbilityComponent, Assembly-CSharp",
+          "ActivationPrerequisites": {
+            "Conditional": {
+              "Operator": 0,
+              "Components": [
+                {
+                  "$type": "OEIFormats.FlowCharts.ConditionalExpression, OEIFormats",
+                  "Operator": 1,
+                  "Components": [
+                    {
+                      "$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+                      "Data": {
+                        "FullName": "Boolean IsHealthPercentage(Guid, Operator, Single)",
+                        "Parameters": [
+                          "7d150000-0000-0000-0000-000000000000",
+                          "LessThanOrEqualTo",
+                          "50"
+                        ]
+                      },
+                      "Not": false,
+                      "Operator": 0
+                    },
+                    {
+                      "$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+                      "Data": {
+                        "FullName": "Boolean HasAfflictionOfType(Guid, Guid)",
+                        "Parameters": [
+                          "7d150000-0000-0000-0000-000000000000",
+                          "4a0073d5-9fe8-4b01-89f1-a16caeff7925"
+                        ]
+                      },
+                      "Not": true,
+                      "Operator": 0
+                    },
+                    {
+                      "$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+                      "Data": {
+                        "FullName": "Boolean HasStatusEffect(Guid, Guid)",
+                        "Parameters": [
+                          "7d150000-0000-0000-0000-000000000000",
+                          "df7f0c26-2d09-4c4c-aa58-d83283dbee8f"
+                        ]
+                      },
+                      "Not": true,
+                      "Operator": 0
+                    }
+                  ]
+                },
+                {
+                  "$type": "OEIFormats.FlowCharts.ConditionalExpression, OEIFormats",
+                  "Operator": 0,
+                  "Components": [
+                    {
+                      "$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+                      "Data": {
+                        "FullName": "Boolean IsHealthPercentage(Guid, Operator, Single)",
+                        "Parameters": [
+                          "7d150000-0000-0000-0000-000000000000",
+                          "LessThanOrEqualTo",
+                          "50"
+                        ]
+                      },
+                      "Not": true,
+                      "Operator": 0
+                    },
+                    {
+                      "$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+                      "Data": {
+                        "FullName": "Boolean HasAfflictionOfType(Guid, Guid)",
+                        "Parameters": [
+                          "7d150000-0000-0000-0000-000000000000",
+                          "4a0073d5-9fe8-4b01-89f1-a16caeff7925"
+                        ]
+                      },
+                      "Not": false,
+                      "Operator": 0
+                    },
+                    {
+                      "$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+                      "Data": {
+                        "FullName": "Boolean HasStatusEffect(Guid, Guid)",
+                        "Parameters": [
+                          "7d150000-0000-0000-0000-000000000000",
+                          "df7f0c26-2d09-4c4c-aa58-d83283dbee8f"
+                        ]
+                      },
+                      "Not": true,
+                      "Operator": 0
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "DeactivationPrerequisites": {
+            "Conditional": {
+              "Operator": 0,
+              "Components": [
+                {
+                  "$type": "OEIFormats.FlowCharts.ConditionalExpression, OEIFormats",
+                  "Operator": 1,
+                  "Components": [
+                    {
+                      "$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+                      "Data": {
+                        "FullName": "Boolean IsHealthPercentage(Guid, Operator, Single)",
+                        "Parameters": [
+                          "7d150000-0000-0000-0000-000000000000",
+                          "LessThanOrEqualTo",
+                          "50"
+                        ]
+                      },
+                      "Not": true,
+                      "Operator": 0
+                    },
+                    {
+                      "$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+                      "Data": {
+                        "FullName": "Boolean HasAfflictionOfType(Guid, Guid)",
+                        "Parameters": [
+                          "7d150000-0000-0000-0000-000000000000",
+                          "4a0073d5-9fe8-4b01-89f1-a16caeff7925"
+                        ]
+                      },
+                      "Not": true,
+                      "Operator": 0
+                    }
+                  ]
+                },
+                {
+                  "$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+                  "Data": {
+                    "FullName": "Boolean HasStatusEffect(Guid, Guid)",
+                    "Parameters": [
+                      "7d150000-0000-0000-0000-000000000000",
+                      "df7f0c26-2d09-4c4c-aa58-d83283dbee8f"
+                    ]
+                  },
+                  "Not": false,
+                  "Operator": 0
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.GenericAbilityGameData, Assembly-CSharp",
+      "DebugName": "Streetfighter_NotBloodiedOrFlanked",
+      "ID": "8e60ff6a-bcb7-448d-a074-d74c6ac944fe",
+      "Components": [
+        {
+          "$type": "Game.GameData.GenericAbilityComponent, Assembly-CSharp",
+          "ActivationPrerequisites": {
+            "Conditional": {
+              "Operator": 0,
+              "Components": [
+                {
+                  "$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+                  "Data": {
+                    "FullName": "Boolean IsHealthPercentage(Guid, Operator, Single)",
+                    "Parameters": [
+                      "7d150000-0000-0000-0000-000000000000",
+                      "LessThanOrEqualTo",
+                      "50"
+                    ]
+                  },
+                  "Not": true,
+                  "Operator": 0
+                },
+                {
+                  "$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+                  "Data": {
+                    "FullName": "Boolean HasAfflictionOfType(Guid, Guid)",
+                    "Parameters": [
+                      "7d150000-0000-0000-0000-000000000000",
+                      "4a0073d5-9fe8-4b01-89f1-a16caeff7925"
+                    ]
+                  },
+                  "Not": true,
+                  "Operator": 0
+                },
+                {
+                  "$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+                  "Data": {
+                    "FullName": "Boolean HasStatusEffect(Guid, Guid)",
+                    "Parameters": [
+                      "7d150000-0000-0000-0000-000000000000",
+                      "df7f0c26-2d09-4c4c-aa58-d83283dbee8f"
+                    ]
+                  },
+                  "Not": true,
+                  "Operator": 0
+                }
+              ]
+            }
+          },
+          "DeactivationPrerequisites": {
+            "Conditional": {
+              "Operator": 0,
+              "Components": [
+                {
+                  "$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+                  "Data": {
+                    "FullName": "Boolean IsHealthPercentage(Guid, Operator, Single)",
+                    "Parameters": [
+                      "7d150000-0000-0000-0000-000000000000",
+                      "LessThanOrEqualTo",
+                      "50"
+                    ]
+                  },
+                  "Not": false,
+                  "Operator": 1
+                },
+                {
+                  "$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+                  "Data": {
+                    "FullName": "Boolean HasAfflictionOfType(Guid, Guid)",
+                    "Parameters": [
+                      "7d150000-0000-0000-0000-000000000000",
+                      "4a0073d5-9fe8-4b01-89f1-a16caeff7925"
+                    ]
+                  },
+                  "Not": false,
+                  "Operator": 1
+                },
+                {
+                  "$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+                  "Data": {
+                    "FullName": "Boolean HasStatusEffect(Guid, Guid)",
+                    "Parameters": [
+                      "7d150000-0000-0000-0000-000000000000",
+                      "df7f0c26-2d09-4c4c-aa58-d83283dbee8f"
+                    ]
+                  },
+                  "Not": false,
+                  "Operator": 0
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.SpecialGenericAbilityGameData, Assembly-CSharp",
+      "DebugName": "Pet_LastDance_PartyAbility",
+      "ID": "d2b13454-1c39-4e5c-8afe-627f50532480",
+      "Components": [
+        {
+          "$type": "Game.GameData.GenericAbilityComponent, Assembly-CSharp",
+          "KeywordsIDs": [],
+          "DisplayName": 1256211000,
+          "Description": 1256211001,
+          "DescriptionTactical": -1,
+          "UpgradeDescriptions": [],
+          "UpgradedFromID": "00000000-0000-0000-0000-000000000000",
+          "Vocalization": "NoVocalization",
+          "Icon": "gui/icons/abilities/monk/duality_of_mortal_presence_a.png",
+          "UsageType": "None",
+          "UsageValue": 0,
+          "AbilityClassID": "00000000-0000-0000-0000-000000000000",
+          "AbilityLevel": 1,
+          "IsPassive": "false",
+          "StackingRuleOverride": "Default",
+          "TriggerOnHit": "false",
+          "IsModal": "true",
+          "ModalGroupID": "9764b51a-0dcf-4438-82fa-bf1c3df7bd99",
+          "IsCombatOnly": "false",
+          "IsNonCombatOnly": "false",
+          "HideFromUI": "false",
+          "ShowStatusEffects": "false",
+          "HideFromCombatLog": "false",
+          "UniqueSet": "None",
+          "NoiseLevelID": "15743f94-1026-40b0-8e13-a667b3f66f63",
+          "DurationOverride": 0,
+          "OverrideEmpower": "Default",
+          "ClearsOnMovement": "false",
+          "CannotActivateWhileInStealth": "false",
+          "CannotActivateWhileInvisible": "false",
+          "ActivationPrerequisites": {
+            "Conditional": {
+              "Operator": 0,
+              "Components": []
+            }
+          },
+          "ApplicationPrerequisites": {
+            "Conditional": {
+              "Operator": 0,
+              "Components": []
+            }
+          },
+          "DeactivationPrerequisites": {
+            "Conditional": {
+              "Operator": 0,
+              "Components": []
+            }
+          },
+          "PowerLevelScaling": {
+            "ScalingType": "Default",
+            "BaseLevel": 0,
+            "LevelIncrement": 1,
+            "MaxLevel": 0,
+            "DamageAdjustment": 1,
+            "DurationAdjustment": 1,
+            "BounceCountAdjustment": 0,
+            "ProjectileCountAdjustment": 0,
+            "AccuracyAdjustment": 0,
+            "PenetrationAdjustment": 0
+          },
+          "StatusEffectKeywordsIDs": [],
+          "StatusEffectsIDs": [
+            "df7f0c26-2d09-4c4c-aa58-d83283dbee8f",
+            "542a0ead-37e1-4483-a981-20b9d82269ed",
+            "671317f2-f2c6-430d-947c-0b4bdd2a45a4",
+            "a04923f8-24b1-4967-afce-742e9981e3d0",
+            "54512668-4af5-48ae-b363-661ad3902b2a",
+            "9d63f7b1-fe63-4c2c-a42c-31651c4495b7",
+            "b1d60812-aa22-403d-b8bc-6b18eddec1c4",
+            "484eb322-2364-42bf-8c61-19cad8fe0bd5"
+          ],
+          "RandomizeStatusEffect": "false",
+          "VisualEffects": [],
+          "SelfMaterialReplacementID": "00000000-0000-0000-0000-000000000000",
+          "AttackID": "00000000-0000-0000-0000-000000000000",
+          "AITargetingConditional": {
+            "Conditional": {
+              "Operator": 0,
+              "Components": []
+            },
+            "Scripts": []
+          },
+          "AudioEventListID": "00000000-0000-0000-0000-000000000000",
+          "GrantedViaScript": "false"
+        },
+        {
+          "$type": "Game.GameData.SpecialGenericAbilityComponent, Assembly-CSharp",
+          "SpecialGenericAbilityType": "PartyAbility"
+        }
+      ]
+    }
+  ]
+}

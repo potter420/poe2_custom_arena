@@ -1,0 +1,140 @@
+{
+  "GameDataObjects": [
+    {
+      "$type": "Game.GameData.AttackAOEGameData, Assembly-CSharp",
+      "DebugName": "Streetfighter_LastDance_AOE_Apply_Status",
+      "ID": "477d0c98-a70d-403d-81ca-ce027d1d1457",
+      "Components": [
+        {
+          "$type": "Game.GameData.AttackBaseComponent, Assembly-CSharp",
+          "KeywordsIDs": [],
+          "AttackDistance": 6,
+          "MinAttackDistance": 0,
+          "AttackVariationID": "35abdf41-fc3f-4310-8d5d-5d7da644affc",
+          "UseParentEquippableHand": "false",
+          "CastSpeedID": "eacb53e3-6eb5-422a-92ca-99cc883ae4a9",
+          "RecoveryTimeID": "566840d9-1561-4243-8ca7-889df9869847",
+          "OverrideTacticalActionType": "None",
+          "ImpactDelay": 0,
+          "ForcedTarget": "None",
+          "AffectedTargetType": "Friendly",
+          "AffectedTargetConditional": {
+            "Conditional": {
+              "Operator": 0,
+              "Components": []
+            }
+          },
+          "AffectedTargetDeathState": "Alive",
+          "HostilityOverride": "Default",
+          "PushDistance": 0,
+          "FaceTarget": "true",
+          "AccuracyBonus": 0,
+          "PenetrationRating": 7,
+          "DamageData": {
+            "DamageType": "None",
+            "AlternateDamageType": "None",
+            "Minimum": 0,
+            "Maximum": 0,
+            "TacticalMinimumOverride": 0,
+            "TacticalMaximumOverride": 0,
+            "DamageProcs": []
+          },
+          "RequiresHitObject": "false",
+          "StatusEffectKeywordsIDs": [],
+          "StatusEffectsIDs": [
+            "df7f0c26-2d09-4c4c-aa58-d83283dbee8f",
+            "a04923f8-24b1-4967-afce-742e9981e3d0",
+            "542a0ead-37e1-4483-a981-20b9d82269ed",
+            "671317f2-f2c6-430d-947c-0b4bdd2a45a4"
+          ],
+          "RandomizeStatusEffect": "false",
+          "CanGraze": "false",
+          "CanCrit": "true",
+          "DefendedBy": "Deflect",
+          "AfflictionsDefendedBy": "None",
+          "AfflictionApplicationModifier": "None",
+          "SubstituteHitVisualEffect": "Prefabs/Effects/*.prefab",
+          "VisualEffects": [
+            {
+              "VisualEffect": "prefabs/effects/abilities/paladin/fx_kind_wayfarers_heal_target.prefab",
+              "AttachPoint": "Chest",
+              "AttachObject": "Target",
+              "AttachMode": "Attach",
+              "MeshType": "None",
+              "Event": "OnHit",
+              "AnimEventID": 0,
+              "Loop": "false",
+              "Scale": "false"
+            }
+          ],
+          "AttackOnImpactID": "00000000-0000-0000-0000-000000000000",
+          "ExtraAttackID": "00000000-0000-0000-0000-000000000000",
+          "LaunchBone": "RightWeapon",
+          "HitBone": "Chest",
+          "OnHitShakeDuration": "None",
+          "OnHitShakeStrength": "None",
+          "NoiseLevelID": "15743f94-1026-40b0-8e13-a667b3f66f63",
+          "AllReactNoise": "false",
+          "InterruptsOn": "None",
+          "InterruptType": "Normal",
+          "TargetAngle": 0,
+          "ApplyOnceOnly": "false",
+          "PathsToTarget": "true",
+          "HideFromCombatLog": "false",
+          "AdditionalAttackOnTooltip": "false",
+          "DoesNotApplyDamage": "false",
+          "TreatAsWeapon": "false",
+          "BounceData": {
+            "Bounces": 0,
+            "Multiplier": 0.5,
+            "Range": 10,
+            "InRangeOrder": "false",
+            "NoRepeatTargets": "false",
+            "AlwaysBounceAtEnemies": "false",
+            "Delay": 0,
+            "NeverBounce": "false"
+          },
+          "AttackValidityConditional": {
+            "Conditional": {
+              "Operator": 0,
+              "Components": []
+            }
+          }
+        },
+        {
+          "$type": "Game.GameData.AttackAOEComponent, Assembly-CSharp",
+          "BlastSize": "Medium",
+          "BlastRadiusOverride": 5,
+          "DamageAngle": 360,
+          "ExcludePrimaryTarget": "false",
+          "IgnoreParentTarget": "false",
+          "ExcludeSelf": "false",
+          "BlastPhysicsForce": 500,
+          "PushFromCaster": "false"
+        },
+        {
+          "$type": "Game.GameData.AttackRangedComponent, Assembly-CSharp",
+          "LaunchAttackOnCollision": "false",
+          "ProjectileCount": 1,
+          "IgnoreMagicDefense": "false",
+          "ProjectileConeAngle": 145,
+          "ProjectilePrefab": "prefabs/projectiles/invisible_projectile.prefab",
+          "IsMultiHit": "false",
+          "MultiHitTravelDist": 10,
+          "MultiHitMaxHits": 0,
+          "LaunchSource": "Caster",
+          "LaunchOffset": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "LaunchOffsetRandom": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        }
+      ]
+    }
+  ]
+}

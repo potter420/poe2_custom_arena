@@ -1,0 +1,20 @@
+{
+  "GlobalVariablesSets": [
+    {
+      "GlobalVariables": [
+        {
+          "Tag": "b_custom_arena_begin_wave",
+          "InitialValue": 0
+        },
+		{
+          "Tag": "n_custom_arena_total_victory",
+          "InitialValue": 0
+        },
+        {
+          "Tag": "b_custom_arena_in_location",
+          "InitialValue": 0
+        }
+      ]
+    }
+  ]
+}

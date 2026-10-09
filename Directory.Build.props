@@ -1,0 +1,18 @@
+<Project>
+  <!--
+    ===== Configure your local paths here =====
+    GameDir:       Pillars of Eternity II install folder (the one containing PillarsOfEternityII.exe).
+    BepInExDir:    BepInEx folder inside the game install.
+    ModInstallDir: Where `make deploy` copies the built DLL. BepInEx only loads plugins from
+                   BepInEx\plugins (recursively), so the mod gets its own subfolder there.
+    Any of these can be overridden per command, e.g. make build GAME_DIR="D:\Games\PoE"
+  -->
+  <PropertyGroup>
+    <GameDir Condition="'$(GameDir)' == ''">E:\SteamLibrary\steamapps\common\Pillars of Eternity II</GameDir>
+    <BepInExDir Condition="'$(BepInExDir)' == ''">$(GameDir)\BepInEx</BepInExDir>
+    <ModInstallDir Condition="'$(ModInstallDir)' == ''">$(BepInExDir)\plugins\CombatExtender</ModInstallDir>
+
+    <ManagedDir>$(GameDir)\PillarsOfEternityII_Data\Managed</ManagedDir>
+    <BepInExCoreDir>$(BepInExDir)\core</BepInExCoreDir>
+  </PropertyGroup>
+</Project>

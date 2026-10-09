@@ -1,0 +1,14 @@
+{
+  "Title": {
+    "en": "Custom Balancing and Encounter"
+  },
+  "Description": {
+    "en": "Some Custom Tweak for Balancing and Encounter"
+  },
+  "Author": "druvakin",
+  "ModVersion": "0.1.0.rc20",
+  "SupportedGameVersion": {
+    "Min": "5.0.0.0040",
+    "Max": "5.0.0.0040"
+  }
+}

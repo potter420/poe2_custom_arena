@@ -1,0 +1,54 @@
+{
+  "GameDataObjects": [
+    {
+      "$type": "Game.GameData.WorldMapEncounterGameData, Assembly-CSharp",
+      "DebugName": "RE_Custom_Encounter",
+      "ID": "85f96ce3-cb17-46f6-9b21-04c6fdfbd741",
+      "Components": [
+        {
+          "$type": "Game.GameData.WorldMapEncounterComponent, Assembly-CSharp",
+          "PopUpTitle": -1,
+          "PopUpText": -1,
+          "MapIconName": 4985,
+          "ScriptedInteraction": {
+            "GuidString": "00000000-0000-0000-0000-000000000000"
+          },
+          "EncounterConversationStartID": -1,
+          "PreEncounterScripts": {
+            "Conditional": {
+              "Operator": 0,
+              "Components": []
+            },
+            "Scripts": []
+          },
+          "ValidityConditions": {
+            "Operator": 0,
+            "Components": []
+          },
+          "BiomeID": "5e19b90d-49e3-48cb-a216-ff5ba02f5bba",
+          "OverrideMapID": "00000000-0000-0000-0000-000000000000",
+          "CreatureSpawns": [
+            {
+              "SpawnPrefab": "prefabs/characters/poe2_creatures/creatures_special/cre_rathun_keep_boss.prefab",
+              "SpawnType": "Boss",
+              "AppearsInDifficulty": "15",
+              "EmergeIndex": 0,
+              "AlternateSpawnPrefab": "prefabs/characters/poe2_creatures/creatures_special/cre_rathun_keep_boss.prefab",
+              "CrewKilled": 0
+            }
+          ],
+          "ShipSpawnID": "00000000-0000-0000-0000-000000000000",
+          "AudioEvent": "",
+          "OnceOnly": "false",
+          "EncounterLevel": 20,
+          "EncounterType": "Moderate",
+          "SailorTalesReward": 0,
+          "IsHostile": "true",
+          "IsCritPath": "false",
+          "ScriptedMusicForSI": "",
+          "CombatEndsWhenAllAreDead": "false"
+        }
+      ]
+    }
+  ]
+}
