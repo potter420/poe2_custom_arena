@@ -41,7 +41,7 @@
           "DurationType": "Infinite",
           "Duration": 0,
           "MaxStackQuantity": 0,
-          "ApplicationBehavior": "UseLongerDurationIfAlreadyApplied",
+          "ApplicationBehavior": "StackWithAllSimilarDataEffects",
           "ApplicationType": "ApplyOnStart",
           "IntervalRateID": "00000000-0000-0000-0000-000000000000",
           "StackedChildrenApplyEffects": "false",
@@ -69,11 +69,11 @@
             "ChanceToTrigger": 1
           },
           "PowerLevelScaling": {
-            "UseCharacterLevel": "false",
+            "UseCharacterLevel": "true",
             "BaseLevel": 0,
-            "LevelIncrement": 1,
+            "LevelIncrement": 5,
             "MaxLevel": 0,
-            "ValueAdjustment": 0,
+            "ValueAdjustment": 1,
             "DurationAdjustment": 0
           },
           "IsHostile": "false",
@@ -178,7 +178,7 @@
           "DurationType": "Infinite",
           "Duration": 0,
           "MaxStackQuantity": 0,
-          "ApplicationBehavior": "UseLongerDurationIfAlreadyApplied",
+          "ApplicationBehavior": "StackWithAllSimilarDataEffects",
           "ApplicationType": "ApplyOnStart",
           "IntervalRateID": "00000000-0000-0000-0000-000000000000",
           "StackedChildrenApplyEffects": "false",
@@ -207,7 +207,7 @@
           },
           "PowerLevelScaling": {
             "UseCharacterLevel": "true",
-            "BaseLevel": 1,
+            "BaseLevel": 0,
             "LevelIncrement": 1,
             "MaxLevel": 0,
             "ValueAdjustment": 5,
@@ -304,7 +304,7 @@
           "DurationType": "Infinite",
           "Duration": 0,
           "MaxStackQuantity": 0,
-          "ApplicationBehavior": "UseLongerDurationIfAlreadyApplied",
+          "ApplicationBehavior": "StackWithAllSimilarDataEffects",
           "ApplicationType": "ApplyOnStart",
           "IntervalRateID": "00000000-0000-0000-0000-000000000000",
           "StackedChildrenApplyEffects": "false",
@@ -333,7 +333,7 @@
           },
           "PowerLevelScaling": {
             "UseCharacterLevel": "true",
-            "BaseLevel": 1,
+            "BaseLevel": 0,
             "LevelIncrement": 1,
             "MaxLevel": 0,
             "ValueAdjustment": 5,
@@ -430,7 +430,7 @@
           "DurationType": "Infinite",
           "Duration": 0,
           "MaxStackQuantity": 0,
-          "ApplicationBehavior": "UseLongerDurationIfAlreadyApplied",
+          "ApplicationBehavior": "StackWithAllSimilarDataEffects",
           "ApplicationType": "ApplyOnStart",
           "IntervalRateID": "00000000-0000-0000-0000-000000000000",
           "StackedChildrenApplyEffects": "false",
@@ -556,7 +556,7 @@
           "DurationType": "Infinite",
           "Duration": 0,
           "MaxStackQuantity": 0,
-          "ApplicationBehavior": "UseLongerDurationIfAlreadyApplied",
+          "ApplicationBehavior": "StackWithAllSimilarDataEffects",
           "ApplicationType": "ApplyOnStart",
           "IntervalRateID": "00000000-0000-0000-0000-000000000000",
           "StackedChildrenApplyEffects": "false",
@@ -661,12 +661,12 @@
     },
     {
       "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
-      "DebugName": "Pet_LastDance_AOEBuff_DamageShield",
+      "DebugName": "Pet_LastDance_AOEBuff_ArmorRating",
       "ID": "9d63f7b1-fe63-4c2c-a42c-31651c4495b7",
       "Components": [
         {
           "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
-          "StatusEffectType": "DamageShield",
+          "StatusEffectType": "ArmorRating",
           "OverrideDescriptionString": -1,
           "OverrideDescriptionStringTactical": -1,
           "UseStatusEffectValueAs": "None",
@@ -682,7 +682,7 @@
           "DurationType": "Infinite",
           "Duration": 0,
           "MaxStackQuantity": 0,
-          "ApplicationBehavior": "UseLongerDurationIfAlreadyApplied",
+          "ApplicationBehavior": "StackWithAllSimilarDataEffects",
           "ApplicationType": "ApplyOnStart",
           "IntervalRateID": "00000000-0000-0000-0000-000000000000",
           "StackedChildrenApplyEffects": "false",
@@ -796,7 +796,7 @@
           "OverrideDescriptionString": 1256211000,
           "OverrideDescriptionStringTactical": 1256211000,
           "UseStatusEffectValueAs": "None",
-          "BaseValue": 1,
+          "BaseValue": 0,
           "DynamicValue": {
             "Stat": "None",
             "SkillDataID": "00000000-0000-0000-0000-000000000000",
@@ -898,8 +898,7 @@
           "ItemValueID": "00000000-0000-0000-0000-000000000000",
           "AfflictionTypeValueID": "00000000-0000-0000-0000-000000000000",
           "StatusEffectsValueIDs": [
-            "e74ca79a-58e5-4b91-acdd-e92a9ae162ef",
-            "c720092d-3c2a-4d41-9c80-b657cd673de0"
+            "e74ca79a-58e5-4b91-acdd-e92a9ae162ef"
           ],
           "AttackValueID": "00000000-0000-0000-0000-000000000000",
           "AttackOverrideValue": "None",
@@ -1051,7 +1050,7 @@
           "OverrideDescriptionString": -1,
           "OverrideDescriptionStringTactical": -1,
           "UseStatusEffectValueAs": "None",
-          "BaseValue": 1,
+          "BaseValue": 0,
           "DynamicValue": {
             "Stat": "None",
             "SkillDataID": "00000000-0000-0000-0000-000000000000",
@@ -1174,6 +1173,1644 @@
         {
           "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
           "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "Tracker_SE_Perception",
+      "ID": "6536daa9-294d-416f-8e50-806b97628bdc",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "Of_Resolve_SE_Resolve",
+      "ID": "5fdc24ab-f0ee-4173-9968-169feee809d9",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "Vestment_of_skaen_SE_Resolve",
+      "ID": "24fb4ab3-68e0-47b8-b0c6-67fbb13e85ae",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "Firm_foundation_SE_Resolve",
+      "ID": "327ece34-0c70-455f-9d4c-8a5996caf0d8",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "Smoothly_Jointed_SE_Dexterity",
+      "ID": "f33f69f1-3508-4e0c-9ec7-bf84de73b5ca",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "Shod_for_winter_SE_Resolve",
+      "ID": "fbd622d2-14fe-44e4-a989-fd66faf33f43",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "Graceful_motion_SE_Dexterity",
+      "ID": "f281ff44-2320-4222-9d41-e16c26aee2eb",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "Unhindered_SE_Dexterity",
+      "ID": "769afa24-57e4-443b-bbe9-7bd7116f6e43",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "Shorewalker_Sandals_Certain_Stride_SE_Resolve",
+      "ID": "5dfdf147-215e-4b33-b9c3-1a766ee75bf4",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "Rapidity_SE_Dexterity",
+      "ID": "6a8f6ca4-2e7d-4af8-8fb8-6fa35b98a716",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "Holistic_Precision_SE_Dexterity",
+      "ID": "10cfd460-623d-4429-a351-c95976031fb3",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "Lithe_hands_SE_Dexterity",
+      "ID": "b95a664f-236c-4786-b6ed-6f7ecd244aa5",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "Artificers_Precision_SE_Dexterity",
+      "ID": "1e63b32f-e92b-481a-a567-fb9956180279",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "Slugger_SE_Might",
+      "ID": "22047ae1-1edc-4cd4-a0e1-8e084daf3b7e",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "Of_Ogre_Might_SE_Might",
+      "ID": "c712d602-a3ee-434e-b42a-7411a306d544",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "Iron_fist_SE_Might",
+      "ID": "f8c19817-c666-4de3-8f5c-acd43680c931",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "Skillful_Dodger_SE_Dexterity",
+      "ID": "fd2ab839-ba3a-4a37-92d4-564657ed93cc",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "Strength_of_the_oathbound_SE_Might",
+      "ID": "1118e3c7-0d2b-4ca7-b885-580ec5171d01",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "Hawk_eye_SE_Perception",
+      "ID": "c28aeb93-33a6-4d66-a5f8-7114b87ae91e",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "Pallid_Countenance_SE_Intellect",
+      "ID": "904671a6-85b4-4e27-93f1-86b754bf666c",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "Pallid_Countenance_SE_Perception",
+      "ID": "34f66fba-4954-4cb9-902d-314039e6b0a3",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "Woedicas_Wisdom_SE_Perception",
+      "ID": "8ac669e0-5937-4fff-9aab-528850531708",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "Divine_Knowledge_SE_Intellect",
+      "ID": "75fe684b-d8d1-4b73-bccb-8caf39b75442",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "Beasts_cunning_SE_Perception",
+      "ID": "1ce8de6c-96ec-4bfd-b59c-c06282439cef",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "Deadly_acumen_SE_Intellect",
+      "ID": "4dcd3409-18b8-4e0f-a62d-89a35aaf7ab2",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "Royal_plumage_SE_Intellect",
+      "ID": "46aa8be0-e994-49a3-b4e6-8b7265fd7d0c",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "Royal_plumage_SE_Perception",
+      "ID": "f399dda0-26d2-4669-a46b-6a623f7ab56b",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "Authority_SE_Intellect",
+      "ID": "c19cfb2d-437a-41a1-9c06-68c0306fb748",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "Of_Constitution_SE_Constitution_1",
+      "ID": "61370e85-8974-423b-a971-b588b7646d60",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "glittering_gimcrack_SE_Constitution",
+      "ID": "03990b5e-e398-4291-9c49-bfe34c8270d4",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "glittering_gimcrack_SE_Intellect",
+      "ID": "04bf1950-1e14-417a-8d49-069adc9a9491",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "Transmuted_Iron_SE_Constitution",
+      "ID": "69498780-cb9c-4023-b834-c146f7e9465c",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "Lay_unto_slumber_SE_Intellect",
+      "ID": "eb12f9b1-e1d1-4d56-a057-ce33387ec80a",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "Enlightened_SE_Intellect",
+      "ID": "ff2627cb-246c-4480-b345-4c6a9954387a",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "Darkest_before_dawn_SE_Perception",
+      "ID": "2d77a6b2-ec6f-4629-979a-0e4f17b55a3e",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "Of_Power_SE_Intellect",
+      "ID": "6efb40f9-a161-4932-b731-4568f3ffcc89",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "Esteem_SE_Intellect",
+      "ID": "244aa64b-3155-4ef6-81ea-01ce5b509b93",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "Duty_Clad_SE_Resolve",
+      "ID": "b9b0130b-7c56-4f43-b4b4-a29d8cc6214b",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "Old_Wisdom_SE_Intellect",
+      "ID": "3d5dc5bc-94ff-4493-a696-5fe6d30e6c65",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "chameleons_touch_Adaptive_Barbarian_Con",
+      "ID": "c411cce9-70bf-49d8-9cdd-90752d2487f8",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "chameleons_touch_Adaptive_Chanter_Int",
+      "ID": "947a1e7c-5600-4f56-a19c-95eeb76398a9",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "chameleons_touch_Adaptive_Cipher_Perception",
+      "ID": "1263a85d-06e7-42d0-9c3e-bafd2ed0744d",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "chameleons_touch_Adaptive_Druid_Resolve",
+      "ID": "6c4dfaac-bf8f-443a-9af4-c34001c1aac8",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "chameleons_touch_Adaptive_Fighter_Might",
+      "ID": "71dc338d-763b-440a-b1a1-683012d9c83a",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "chameleons_touch_Adaptive_Monk_Dex",
+      "ID": "0e2fb095-a035-412e-8772-90341eb20292",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "chameleons_touch_Adaptive_Paladin_Might",
+      "ID": "da56b8bd-5d37-4709-bdfc-a12bc672cca0",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "chameleons_touch_Adaptive_Priest_Resolve",
+      "ID": "4b030db3-e3aa-4d92-9dd9-8155a42e1b0f",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "chameleons_touch_Adaptive_Ranger_Perception",
+      "ID": "db1bf667-2dc0-4ab1-8cc0-e5b69b1ad55d",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "chameleons_touch_Adaptive_Rogue_Dex",
+      "ID": "74e196b2-4ef1-49fb-bfd6-a0460268ac46",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "chameleons_touch_Adaptive_Wizard_Int",
+      "ID": "14657e31-cb82-4575-a627-692f0008d427",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "Commitment_SE_Resolve",
+      "ID": "24b8a23a-bd84-4691-a86e-6b2985ff0ac3",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "Jewel_of_clarity_SE_Intellect",
+      "ID": "c83ed111-9313-42e6-a3d1-c8843549ff0e",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "Jewel_of_clarity_SE_Perception",
+      "ID": "8c1ca3ef-fbc4-4975-917d-81f207b6b948",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "Self_Reliant_SE_Resolve",
+      "ID": "fbccd90a-4038-474f-bd40-81c201e541b4",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "Of_Eoten_Constitution_SE_Constitution",
+      "ID": "64179aaf-f442-4142-a96d-8d814f488295",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "Safe_travels_SE_Constitution",
+      "ID": "f8f6c7c7-8aaf-45a1-bcd0-2726d73ba1ac",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "Wrought_SE_Might",
+      "ID": "04388486-e94c-41d0-9f7d-db4c5728e225",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "Of_Constitution_SE_Constitution",
+      "ID": "12475b1d-8e57-4525-98a9-5c87b72a4114",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "Hold_Fast_SE_Constitution",
+      "ID": "86ea019c-e6e2-4eb4-bfeb-640ce1a3f436",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "OfMight2_SE_Intellect",
+      "ID": "a0b61017-d368-4580-9787-f5b6a2a9b57b",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "ofperception1_SE_Perception1",
+      "ID": "fc66aeaf-a5b1-4d69-9208-6c0d9704a907",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "OfPerception2_SE_Perception",
+      "ID": "34ef8921-6ec0-4c99-b196-63d990d087c0",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "ofperception3_SE_Perception3",
+      "ID": "f0689107-e538-4d62-8cb1-ca1fe96e442b",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "OfResolve2_SE_Resolve",
+      "ID": "ed2f08bb-fdaf-4e39-86b3-b33f16ad754f",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "Mod_Pet_BACKER_SE_Intellect",
+      "ID": "4badcdc5-68ca-4e52-a9e6-aeeaca7ad5f5",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "Mod_Pet_BACKER_SE_Perception",
+      "ID": "b39cd7b6-ef26-4fc9-a628-47047a6c7fd3",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "Mod_Pet_BACKER_SE_Dexterity",
+      "ID": "b12c8fdd-28d8-4086-9991-7ad5d4529835",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "Mod_Pet_BACKER_SE_Resolve",
+      "ID": "13587cb0-b4a9-42f4-b185-4ec4efca6216",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "Mod_Pet_BACKER_SE_Constitution",
+      "ID": "f05ba37c-9dda-4ef4-810f-76a23516287e",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "Mod_Pet_BACKER_SE_Might",
+      "ID": "1645a5f9-6fdd-48e7-9baa-479236bac206",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "Mod_Pet_BACKER_SUPER_Eviee_SE_Resolve",
+      "ID": "6b8ad378-062d-40db-a372-07466a51137b",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "Mod_Pet_BACKER_Troll_Grog_SE_Resolve",
+      "ID": "1630d60f-c086-4570-8443-6aef92d863b2",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "Double_Barrel_SE_Information",
+      "ID": "0cd1db24-d3fa-4c29-a747-a8e693e62fed",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "Unstoppable_shot_SE_Information",
+      "ID": "d2550795-6134-4bd0-9bb3-11bdd921b55c",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "Two_Hander_SE_Information",
+      "ID": "5b549566-194e-4094-923d-3eb981ae024f",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "Urgent_harvest_keyword",
+      "ID": "c696e88c-51ec-4907-bf2b-e6d2302f5cf9",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "Reckless_Cyclone_SE_Information",
+      "ID": "70e537d9-837b-4beb-aa4a-6594cee39c3e",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "Knapped_Glass_SE_Information",
+      "ID": "6765c662-2836-47fa-a924-6abb44731d14",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "Garlands_tears_SE_Information",
+      "ID": "4973c618-b4a6-4c3e-8c97-36ef1821d152",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "Cacophony_SE_Information",
+      "ID": "d1a277ce-414e-491a-a767-64ffdb0bceab",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "LAX01_Keen_Senses_SE_Perception",
+      "ID": "9f32a760-4232-4949-9600-93ce22f622f2",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "LAX02_Mod_Pet_Snow_Bear_SE_Constitution",
+      "ID": "ff42eb2f-f799-4db5-b944-cee3d0437164",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "Gusting_blows_SE_AttackSpeed",
+      "ID": "1e8d277f-388e-4fac-8c38-d1a9d49c7d9f",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "Gang_up_SE_AP",
+      "ID": "6d2fd460-e201-463d-bac0-9520f991b1cf",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "Rapidity_SE_AttackSpeed",
+      "ID": "4083e53e-fa10-41a8-b1fd-149fd401a5b8",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "Duelist_SE_AttackSpeed",
+      "ID": "cd8ddc51-0432-477c-a50e-b0b37535ee92",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "Raptors_Grip_SE_RecoveryTime",
+      "ID": "17a40c48-5034-4c48-b1a5-464c52fe3fa5",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "Marksmanship_SE_RangedPenetration",
+      "ID": "e8a63eb6-7052-4c14-abaf-2b28d561026a",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "Articulated_SE_Recovery",
+      "ID": "1e7c8cca-f59d-458f-a541-2e57d8b7bdcf",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "Go_not_quietly_SE_AttackSpeed",
+      "ID": "9e47d9d8-31c6-45ec-8f30-7041af39b7d3",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "Lithe_Motion_SE_RecoveryTime",
+      "ID": "bdb54d16-4288-473f-bd07-df452741de03",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "Deft_Motion_SE_Recovery",
+      "ID": "826aae12-6bd6-4c2e-9808-ef087dfc83ee",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "Heavy_Bronze_SE_Recovery",
+      "ID": "fb5acecd-74b3-4d12-96de-d63e1c56dbfe",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "Bronze_Juggernaut_SE_Recovery",
+      "ID": "ca02e525-03da-400e-bee6-8fca836d2e78",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "Burnished_joints_SE_Recovery",
+      "ID": "1e38b15b-c6b5-49e5-9958-2a7f213c083d",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "Armor_Piercing_shot_SE_AP",
+      "ID": "f8495bed-61ba-4a7e-8ae6-89969db7c685",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "LAX00_Black_Glass_SE_Penetration",
+      "ID": "247ce5c0-d035-4572-9b2f-87aa589a6087",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "Jagged_Load_SE_AP",
+      "ID": "992874bd-88ab-4541-8c88-797f1913d79a",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "Sharpshooting_SE_AP",
+      "ID": "a1dc7151-d7df-4064-80a8-77829b64125e",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "Stopping_power_SE_AP",
+      "ID": "2d1496a5-9871-4272-9745-1bf7ab163f74",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "Quickened_Blade_SE_AttackSpeed",
+      "ID": "008f7d60-bd9b-4075-a32a-bd660478a8da",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "Endres_Flog_of_Obedience_Relentless_Torture_SE_Penetration",
+      "ID": "1bb35260-9847-453a-84bd-d2fd2cd68a0c",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "Two_Hander_SE_AP",
+      "ID": "3bccf8d2-380c-437f-965d-466ee1f2d312",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "Relentless_SE_AttackSpeed",
+      "ID": "f60a92de-bb5e-426d-af1e-d2f24cb94e3a",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "Penetrating_SE_Armor_Pen",
+      "ID": "8c85f665-fe6d-4baa-ae36-cb900a70757c",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "Soul_Charge_SE_AttackSpeed",
+      "ID": "83eb5bcf-f50f-4b95-8e9b-a2f5e3aab305",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "Soul_Storm_SE_AttackSpeed",
+      "ID": "71ae8dc3-8240-4644-bb5c-55ad0385de70",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "Flurry_SE_AttackSpeed",
+      "ID": "a154d06c-d278-49c8-9bcd-36fdc178bafc",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "Prelude_SE_AttackSpeed",
+      "ID": "374c9ef3-38b9-459e-aa18-edccf56ad986",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "Shocking_Prelude_SE_AttackSpeed",
+      "ID": "39521a5a-803e-41c1-99a9-23ea0cc98daa",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "Cold_Steel_SE_AP",
+      "ID": "2d6e0d6a-55a5-4131-b847-d97bc0ae2a8e",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "Glass_walker_SE_AttackSpeed",
+      "ID": "15a676cf-90dd-4648-be0e-531a029aff83",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "obsidian_blade_SE_AP",
+      "ID": "c15a25c7-c3a0-40cb-b9c5-fbeceba4bfd6",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "Harpooning_SE_AP",
+      "ID": "b8f5121c-0f63-4075-9e88-88ce7aaad9f7",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "Corroded_Blade_SE_AP",
+      "ID": "b45d421d-4a11-489d-b41a-4efe696f871f",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "Sharpened_Blade_SE_AP",
+      "ID": "b42566cb-c0ad-4d41-b7d5-00e8bdc31847",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "Hounds_Speed_SE_AttackSpeed",
+      "ID": "84d9424c-50cd-4deb-9d53-b3f8bb74212a",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "Heavy_Draw_SE_AttackSpeed",
+      "ID": "e25dbb8e-65a9-4afa-9c1d-dff851bb943c",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "Heavy_Draw_SE_AP",
+      "ID": "921f308e-18bd-4886-8585-654cfe62e824",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "Decisive_Shots_SE_AttackSpeed",
+      "ID": "0d08e56a-f673-431c-8a25-0694c81cc321",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "lax01_Rivalries_SE_AttackSpeed",
+      "ID": "47e13d74-163b-48b9-bca8-a9e150f1a69f",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "LAX01_Heavy_mobility_SE_ArmorRecovery",
+      "ID": "84cc270a-5ead-462f-8a3f-209987047960",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "LAX01_Unnatural_Fit_SE_RecoveryMult",
+      "ID": "74f65665-2f0e-46ef-90f3-e128333b4305",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "LAX01_Penetrating_Bash_SE_Penetration",
+      "ID": "d548f322-4725-4501-98be-486a5cd93302",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "LAX01_Improved_Firing_Mechanism_SE_Penetration",
+      "ID": "27ce84e2-10e4-4abc-adfc-7a7f3448a460",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "lax02_oblivion_SEIncreaseAttackSpeed",
+      "ID": "a5133e7a-f406-4107-a498-bf5d0f2020e0",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "Pet_LastDance_AOEBuff_AttackSpeed",
+      "ID": "72ef8391-7ee6-4ba6-a189-7b43811df21e",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "StatusEffectType": "AttackSpeedMultiplier",
+          "OverrideDescriptionString": -1,
+          "OverrideDescriptionStringTactical": -1,
+          "UseStatusEffectValueAs": "None",
+          "BaseValue": 1.2,
+          "DynamicValue": {
+            "Stat": "None",
+            "SkillDataID": "00000000-0000-0000-0000-000000000000",
+            "ClassID": "00000000-0000-0000-0000-000000000000",
+            "MultiplyBy": 1,
+            "Operator": "Add"
+          },
+          "KeywordsIDs": [],
+          "DurationType": "Infinite",
+          "Duration": 0,
+          "MaxStackQuantity": 0,
+          "ApplicationBehavior": "StackWithAllSimilarDataEffects",
+          "ApplicationType": "ApplyOnStart",
+          "IntervalRateID": "00000000-0000-0000-0000-000000000000",
+          "StackedChildrenApplyEffects": "false",
+          "InclusionConditions": {
+            "Operator": 0,
+            "Components": []
+          },
+          "ApplicationPrerequisites": {
+            "Conditional": {
+              "Operator": 0,
+              "Components": []
+            }
+          },
+          "TriggerAdjustment": {
+            "TriggerOnEvent": "None",
+            "TriggerOffEvent": "None",
+            "ValidateWithAttackFilter": "false",
+            "ParamValue": 0,
+            "ValueAdjustment": 0,
+            "DurationAdjustment": 0,
+            "ResetTriggerOnEffectTimeout": "false",
+            "MaxTriggerCount": 0,
+            "IgnoreMaxTriggerCount": "false",
+            "RemoveEffectAtMax": "false",
+            "ChanceToTrigger": 1
+          },
+          "PowerLevelScaling": {
+            "UseCharacterLevel": "true",
+            "BaseLevel": 0,
+            "LevelIncrement": 1,
+            "MaxLevel": 0,
+            "ValueAdjustment": 0.1,
+            "DurationAdjustment": 0
+          },
+          "IsHostile": "false",
+          "ClearOnCombatEnd": "false",
+          "ClearOnRest": "false",
+          "ClearOnFoodRest": "false",
+          "ClearWhenAttacks": "false",
+          "ClearOnDeath": "false",
+          "HideFromCombatTooltip": "false",
+          "HideFromCombatLog": "false",
+          "HideFromUI": "false",
+          "HideIfNoValue": "false",
+          "VisualEffects": [],
+          "MaterialReplacementID": "00000000-0000-0000-0000-000000000000",
+          "AttackFilter": {
+            "KeywordsIDs": [],
+            "KeywordLogic": "Or",
+            "Race": "None",
+            "IsKith": "false",
+            "HealthPercentage": 0,
+            "HealthOperator": "EqualTo",
+            "Range": "None",
+            "ClassTypeID": "00000000-0000-0000-0000-000000000000",
+            "Source": "None",
+            "DefendedBy": "None",
+            "Empowered": "false",
+            "Disengagement": "false",
+            "Stealthed": "false",
+            "UseStealthLinger": "false",
+            "PowerLevel": 0,
+            "PowerLevelOperator": "EqualTo",
+            "ChanceToApply": 1,
+            "AttackHostility": "Default",
+            "TargetType": "None"
+          },
+          "AttackTargetFilter": {
+            "KeywordsIDs": [],
+            "KeywordLogic": "Or",
+            "Race": "None",
+            "IsKith": "false",
+            "HealthPercentage": 0,
+            "HealthOperator": "EqualTo",
+            "Distance": 0,
+            "DistanceOperator": "EqualTo",
+            "HasDOT": "false",
+            "IsMarked": "false",
+            "TargetHostility": "Default"
+          },
+          "ExtraValue": 0,
+          "OverridePenetration": 0,
+          "DamageTypeValue": "All",
+          "KeywordValueID": "00000000-0000-0000-0000-000000000000",
+          "RaceValue": "None",
+          "StatusEffectTypeValue": "None",
+          "ItemValueID": "00000000-0000-0000-0000-000000000000",
+          "AfflictionTypeValueID": "00000000-0000-0000-0000-000000000000",
+          "StatusEffectsValueIDs": [],
+          "AttackValueID": "00000000-0000-0000-0000-000000000000",
+          "AttackOverrideValue": "None",
+          "EventValue": "OnApply",
+          "ClassValueID": "00000000-0000-0000-0000-000000000000",
+          "WeaponTypeValue": "None",
+          "AttackHitType": "None",
+          "SkillValueID": "00000000-0000-0000-0000-000000000000",
+          "AudioEventListID": "00000000-0000-0000-0000-000000000000",
+          "BedRestDaysMinimum": 0,
+          "BedRestDaysMaximum": 0
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "Pet_LastDance_AOEBuff_CastSpeed",
+      "ID": "57c21458-a3bc-4e22-b47c-323008a87576",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "StatusEffectType": "AttackSpeedMultiplier",
+          "OverrideDescriptionString": -1,
+          "OverrideDescriptionStringTactical": -1,
+          "UseStatusEffectValueAs": "None",
+          "BaseValue": 1.5,
+          "DynamicValue": {
+            "Stat": "None",
+            "SkillDataID": "00000000-0000-0000-0000-000000000000",
+            "ClassID": "00000000-0000-0000-0000-000000000000",
+            "MultiplyBy": 1,
+            "Operator": "Add"
+          },
+          "KeywordsIDs": [],
+          "DurationType": "Infinite",
+          "Duration": 0,
+          "MaxStackQuantity": 0,
+          "ApplicationBehavior": "StackWithAllSimilarDataEffects",
+          "ApplicationType": "ApplyOnStart",
+          "IntervalRateID": "00000000-0000-0000-0000-000000000000",
+          "StackedChildrenApplyEffects": "false",
+          "InclusionConditions": {
+            "Operator": 0,
+            "Components": []
+          },
+          "ApplicationPrerequisites": {
+            "Conditional": {
+              "Operator": 0,
+              "Components": []
+            }
+          },
+          "TriggerAdjustment": {
+            "TriggerOnEvent": "None",
+            "TriggerOffEvent": "None",
+            "ValidateWithAttackFilter": "false",
+            "ParamValue": 0,
+            "ValueAdjustment": 0,
+            "DurationAdjustment": 0,
+            "ResetTriggerOnEffectTimeout": "false",
+            "MaxTriggerCount": 0,
+            "IgnoreMaxTriggerCount": "false",
+            "RemoveEffectAtMax": "false",
+            "ChanceToTrigger": 1
+          },
+          "PowerLevelScaling": {
+            "UseCharacterLevel": "true",
+            "BaseLevel": 0,
+            "LevelIncrement": 1,
+            "MaxLevel": 0,
+            "ValueAdjustment": 0.3,
+            "DurationAdjustment": 0
+          },
+          "IsHostile": "false",
+          "ClearOnCombatEnd": "false",
+          "ClearOnRest": "false",
+          "ClearOnFoodRest": "false",
+          "ClearWhenAttacks": "false",
+          "ClearOnDeath": "false",
+          "HideFromCombatTooltip": "false",
+          "HideFromCombatLog": "false",
+          "HideFromUI": "false",
+          "HideIfNoValue": "false",
+          "VisualEffects": [],
+          "MaterialReplacementID": "00000000-0000-0000-0000-000000000000",
+          "AttackFilter": {
+            "KeywordsIDs": [],
+            "KeywordLogic": "Or",
+            "Race": "None",
+            "IsKith": "false",
+            "HealthPercentage": 0,
+            "HealthOperator": "EqualTo",
+            "Range": "None",
+            "ClassTypeID": "00000000-0000-0000-0000-000000000000",
+            "Source": "Spell",
+            "DefendedBy": "None",
+            "Empowered": "false",
+            "Disengagement": "false",
+            "Stealthed": "false",
+            "UseStealthLinger": "false",
+            "PowerLevel": 0,
+            "PowerLevelOperator": "EqualTo",
+            "ChanceToApply": 1,
+            "AttackHostility": "Default",
+            "TargetType": "None"
+          },
+          "AttackTargetFilter": {
+            "KeywordsIDs": [],
+            "KeywordLogic": "Or",
+            "Race": "None",
+            "IsKith": "false",
+            "HealthPercentage": 0,
+            "HealthOperator": "EqualTo",
+            "Distance": 0,
+            "DistanceOperator": "EqualTo",
+            "HasDOT": "false",
+            "IsMarked": "false",
+            "TargetHostility": "Default"
+          },
+          "ExtraValue": 0,
+          "OverridePenetration": 0,
+          "DamageTypeValue": "All",
+          "KeywordValueID": "00000000-0000-0000-0000-000000000000",
+          "RaceValue": "None",
+          "StatusEffectTypeValue": "None",
+          "ItemValueID": "00000000-0000-0000-0000-000000000000",
+          "AfflictionTypeValueID": "00000000-0000-0000-0000-000000000000",
+          "StatusEffectsValueIDs": [],
+          "AttackValueID": "00000000-0000-0000-0000-000000000000",
+          "AttackOverrideValue": "None",
+          "EventValue": "OnApply",
+          "ClassValueID": "00000000-0000-0000-0000-000000000000",
+          "WeaponTypeValue": "None",
+          "AttackHitType": "None",
+          "SkillValueID": "00000000-0000-0000-0000-000000000000",
+          "AudioEventListID": "00000000-0000-0000-0000-000000000000",
+          "BedRestDaysMinimum": 0,
+          "BedRestDaysMaximum": 0
         }
       ]
     }

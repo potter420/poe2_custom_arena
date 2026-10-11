@@ -13,6 +13,142 @@
           ]
         }
       ]
+    },
+    {
+      "$type": "Game.GameData.RecipeData, Assembly-CSharp",
+      "DebugName": "Recipe_Attribute_Bonus_Of_Might",
+      "ID": "0d41e8fa-4c9b-4d63-94b8-9dfeedf63bf6",
+      "Components": [
+        {
+          "$type": "Game.GameData.RecipeComponent, Assembly-CSharp",
+          "DisplayName": 1256211000,
+          "CraftingLocation": "None",
+          "CategoryID": "7bad3803-0dfd-473a-a857-326f4853a4d6",
+          "VisibilityConditions": {
+            "Operator": 0,
+            "Components": []
+          },
+          "CreationConditions": {
+            "Operator": 0,
+            "Components": []
+          },
+          "Cost": 0,
+          "CostByValueMultiplier": 0,
+          "Double2HIngredientCost": "true",
+          "CanModifyWeapons": "true",
+          "CanModifyArmor": "true",
+          "CanModifyShields": "true",
+          "CanModifySpecificItemsIDs": [],
+          "Ingredients": [
+            {
+              "ItemID": "f51bb759-c5b3-437f-84ea-ba5671d3fa27",
+              "Quantity": 1,
+              "IsDestroyed": "false"
+            }
+          ],
+          "Output": [],
+          "PrerequisiteItemModID": "00000000-0000-0000-0000-000000000000",
+          "ItemModsToAddIDs": [
+            "f81f0fde-32f4-4044-8b18-a7956010851e"
+          ],
+          "ItemModsToRemoveIDs": []
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.RecipeData, Assembly-CSharp",
+      "DebugName": "Recipe_Attribute_Bonus_Of_Magic",
+      "ID": "9eb0be10-6111-4ea0-acef-e7b7501e13df",
+      "Components": [
+        {
+          "$type": "Game.GameData.RecipeComponent, Assembly-CSharp",
+          "DisplayName": 1256211001,
+          "CraftingLocation": "None",
+          "CategoryID": "7bad3803-0dfd-473a-a857-326f4853a4d6",
+          "VisibilityConditions": {
+            "Operator": 0,
+            "Components": []
+          },
+          "CreationConditions": {
+            "Operator": 0,
+            "Components": []
+          },
+          "Cost": 0,
+          "CostByValueMultiplier": 0,
+          "Double2HIngredientCost": "true",
+          "CanModifyWeapons": "true",
+          "CanModifyArmor": "true",
+          "CanModifyShields": "true",
+          "CanModifySpecificItemsIDs": [],
+          "Ingredients": [
+            {
+              "ItemID": "f51bb759-c5b3-437f-84ea-ba5671d3fa27",
+              "Quantity": 1,
+              "IsDestroyed": "false"
+            }
+          ],
+          "Output": [],
+          "PrerequisiteItemModID": "00000000-0000-0000-0000-000000000000",
+          "ItemModsToAddIDs": [
+            "f5cf22cc-6136-46eb-8696-94ef1eaf820f"
+          ],
+          "ItemModsToRemoveIDs": []
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.ItemModGameData, Assembly-CSharp",
+      "DebugName": "Mod_Attribute_Bonus_Of_Might",
+      "ID": "f81f0fde-32f4-4044-8b18-a7956010851e",
+      "Components": [
+        {
+          "$type": "Game.GameData.ItemModComponent, Assembly-CSharp",
+          "DisplayName": 1256211000,
+          "HideFromUI": "false",
+          "EnchantCategory": "Unique",
+          "Cost": 20,
+          "CursesItem": "false",
+          "DurabilityDamage": 0,
+          "StatusEffectsOnEquipIDs": [
+            "c712d602-a3ee-434e-b42a-7411a306d544",
+            "f281ff44-2320-4222-9d41-e16c26aee2eb",
+            "12475b1d-8e57-4525-98a9-5c87b72a4114"
+          ],
+          "StatusEffectsOnLaunchIDs": [],
+          "StatusEffectsOnAttackIDs": [],
+          "AbilityModsOnEquipIDs": [],
+          "OnEquipVisualEffects": [],
+          "DamageProcs": [],
+          "AbilitiesOnEquipIDs": []
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.ItemModGameData, Assembly-CSharp",
+      "DebugName": "Mod_Attribute_Bonus_Of_Magic",
+      "ID": "f5cf22cc-6136-46eb-8696-94ef1eaf820f",
+      "Components": [
+        {
+          "$type": "Game.GameData.ItemModComponent, Assembly-CSharp",
+          "DisplayName": 1256211001,
+          "HideFromUI": "false",
+          "EnchantCategory": "Unique",
+          "Cost": 20,
+          "CursesItem": "false",
+          "DurabilityDamage": 0,
+          "StatusEffectsOnEquipIDs": [
+            "3ee050fc-bc6a-4cc5-916d-4890b910eda7",
+            "5fdc24ab-f0ee-4173-9968-169feee809d9",
+            "f0689107-e538-4d62-8cb1-ca1fe96e442b"
+          ],
+          "StatusEffectsOnLaunchIDs": [],
+          "StatusEffectsOnAttackIDs": [],
+          "AbilityModsOnEquipIDs": [],
+          "OnEquipVisualEffects": [],
+          "DamageProcs": [],
+          "AbilitiesOnEquipIDs": []
+        }
+      ]
     }
   ]
 }

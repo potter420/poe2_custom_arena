@@ -106,6 +106,14 @@ namespace CombatExtender.Arena
                 List<int> usedIndices = new List<int> { pointIndex };
                 usedIndices.Add(pointIndex);
 
+                // var root = RootObjectContainer.GetRootObjectContainerForScene(RootObjectContainer.ContainerType.LocalScene, "ar_2102_prologue_berath");
+                // var src = root.transform.GetChild(1).GetChild(9).GetChild(2).gameObject;
+                // var vault = new GameObject("ArenaTemplates");
+                // vault.SetActive(false);
+                // Object.DontDestroyOnLoad(vault);
+                // var t = Object.Instantiate(src, vault.transform); // never wakes up
+                // t.name = "Custom_Switch_Steward";
+
                 gvs.SetVariable("b_custom_arena_begin_wave", 0, ExceptionMode.Catch, false);
                 yield return null;
                 // TODO: spawn the enemies here. Use `yield return null;` to continue on the
