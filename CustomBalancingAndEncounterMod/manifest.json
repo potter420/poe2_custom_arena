@@ -6,7 +6,7 @@
     "en": "Some Custom Tweak for Balancing and Encounter"
   },
   "Author": "druvakin",
-  "ModVersion": "0.1.0.rc30",
+  "ModVersion": "0.1.0.rc38",
   "SupportedGameVersion": {
     "Min": "5.0.0.0040",
     "Max": "5.0.0.0040"

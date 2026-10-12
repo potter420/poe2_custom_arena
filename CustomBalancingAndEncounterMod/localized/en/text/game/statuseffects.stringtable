@@ -3,6 +3,11 @@
   <Name>game\statuseffects</Name>
   <Entries>
     <Entry>
+      <ID>0</ID>
+      <DefaultText>Go Invisible if in Stealth (every 3 seconds)</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>1256211000</ID>
       <DefaultText>Restore Class Resource on action</DefaultText>
       <FemaleText />

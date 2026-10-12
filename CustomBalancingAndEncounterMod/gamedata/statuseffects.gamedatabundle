@@ -166,7 +166,7 @@
           "OverrideDescriptionString": -1,
           "OverrideDescriptionStringTactical": -1,
           "UseStatusEffectValueAs": "None",
-          "BaseValue": 10,
+          "BaseValue": 3,
           "DynamicValue": {
             "Stat": "None",
             "SkillDataID": "9c7962b8-bf69-4670-ba67-acc86a09fca8",
@@ -210,7 +210,7 @@
             "BaseLevel": 0,
             "LevelIncrement": 1,
             "MaxLevel": 0,
-            "ValueAdjustment": 5,
+            "ValueAdjustment": 3,
             "DurationAdjustment": 0
           },
           "IsHostile": "false",
@@ -292,7 +292,7 @@
           "OverrideDescriptionString": -1,
           "OverrideDescriptionStringTactical": -1,
           "UseStatusEffectValueAs": "None",
-          "BaseValue": 10,
+          "BaseValue": 6,
           "DynamicValue": {
             "Stat": "None",
             "SkillDataID": "9c7962b8-bf69-4670-ba67-acc86a09fca8",
@@ -336,7 +336,7 @@
             "BaseLevel": 0,
             "LevelIncrement": 1,
             "MaxLevel": 0,
-            "ValueAdjustment": 5,
+            "ValueAdjustment": 3,
             "DurationAdjustment": 0
           },
           "IsHostile": "false",
@@ -670,7 +670,7 @@
           "OverrideDescriptionString": -1,
           "OverrideDescriptionStringTactical": -1,
           "UseStatusEffectValueAs": "None",
-          "BaseValue": 10,
+          "BaseValue": 6,
           "DynamicValue": {
             "Stat": "None",
             "SkillDataID": "00000000-0000-0000-0000-000000000000",
@@ -714,7 +714,7 @@
             "BaseLevel": 0,
             "LevelIncrement": 1,
             "MaxLevel": 0,
-            "ValueAdjustment": 5,
+            "ValueAdjustment": 3,
             "DurationAdjustment": 0
           },
           "IsHostile": "false",
@@ -1172,7 +1172,7 @@
       "Components": [
         {
           "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
-          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+          "ApplicationBehavior": "StackIfAlreadyApplied"
         }
       ]
     },
@@ -1183,7 +1183,7 @@
       "Components": [
         {
           "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
-          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+          "ApplicationBehavior": "StackIfAlreadyApplied"
         }
       ]
     },
@@ -1194,7 +1194,7 @@
       "Components": [
         {
           "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
-          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+          "ApplicationBehavior": "StackIfAlreadyApplied"
         }
       ]
     },
@@ -1205,7 +1205,7 @@
       "Components": [
         {
           "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
-          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+          "ApplicationBehavior": "StackIfAlreadyApplied"
         }
       ]
     },
@@ -1216,7 +1216,7 @@
       "Components": [
         {
           "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
-          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+          "ApplicationBehavior": "StackIfAlreadyApplied"
         }
       ]
     },
@@ -1227,7 +1227,7 @@
       "Components": [
         {
           "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
-          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+          "ApplicationBehavior": "StackIfAlreadyApplied"
         }
       ]
     },
@@ -1238,7 +1238,7 @@
       "Components": [
         {
           "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
-          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+          "ApplicationBehavior": "StackIfAlreadyApplied"
         }
       ]
     },
@@ -1249,7 +1249,7 @@
       "Components": [
         {
           "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
-          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+          "ApplicationBehavior": "StackIfAlreadyApplied"
         }
       ]
     },
@@ -1260,7 +1260,7 @@
       "Components": [
         {
           "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
-          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+          "ApplicationBehavior": "StackIfAlreadyApplied"
         }
       ]
     },
@@ -1271,7 +1271,7 @@
       "Components": [
         {
           "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
-          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+          "ApplicationBehavior": "StackIfAlreadyApplied"
         }
       ]
     },
@@ -1282,7 +1282,7 @@
       "Components": [
         {
           "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
-          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+          "ApplicationBehavior": "StackIfAlreadyApplied"
         }
       ]
     },
@@ -1293,7 +1293,7 @@
       "Components": [
         {
           "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
-          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+          "ApplicationBehavior": "StackIfAlreadyApplied"
         }
       ]
     },
@@ -1304,7 +1304,7 @@
       "Components": [
         {
           "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
-          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+          "ApplicationBehavior": "StackIfAlreadyApplied"
         }
       ]
     },
@@ -1315,7 +1315,7 @@
       "Components": [
         {
           "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
-          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+          "ApplicationBehavior": "StackIfAlreadyApplied"
         }
       ]
     },
@@ -1326,7 +1326,7 @@
       "Components": [
         {
           "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
-          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+          "ApplicationBehavior": "StackIfAlreadyApplied"
         }
       ]
     },
@@ -1337,7 +1337,7 @@
       "Components": [
         {
           "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
-          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+          "ApplicationBehavior": "StackIfAlreadyApplied"
         }
       ]
     },
@@ -1348,7 +1348,7 @@
       "Components": [
         {
           "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
-          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+          "ApplicationBehavior": "StackIfAlreadyApplied"
         }
       ]
     },
@@ -1359,7 +1359,7 @@
       "Components": [
         {
           "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
-          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+          "ApplicationBehavior": "StackIfAlreadyApplied"
         }
       ]
     },
@@ -1370,7 +1370,7 @@
       "Components": [
         {
           "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
-          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+          "ApplicationBehavior": "StackIfAlreadyApplied"
         }
       ]
     },
@@ -1381,7 +1381,7 @@
       "Components": [
         {
           "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
-          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+          "ApplicationBehavior": "StackIfAlreadyApplied"
         }
       ]
     },
@@ -1392,7 +1392,7 @@
       "Components": [
         {
           "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
-          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+          "ApplicationBehavior": "StackIfAlreadyApplied"
         }
       ]
     },
@@ -1403,7 +1403,7 @@
       "Components": [
         {
           "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
-          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+          "ApplicationBehavior": "StackIfAlreadyApplied"
         }
       ]
     },
@@ -1414,7 +1414,7 @@
       "Components": [
         {
           "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
-          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+          "ApplicationBehavior": "StackIfAlreadyApplied"
         }
       ]
     },
@@ -1425,7 +1425,7 @@
       "Components": [
         {
           "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
-          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+          "ApplicationBehavior": "StackIfAlreadyApplied"
         }
       ]
     },
@@ -1436,7 +1436,7 @@
       "Components": [
         {
           "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
-          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+          "ApplicationBehavior": "StackIfAlreadyApplied"
         }
       ]
     },
@@ -1447,7 +1447,7 @@
       "Components": [
         {
           "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
-          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+          "ApplicationBehavior": "StackIfAlreadyApplied"
         }
       ]
     },
@@ -1458,7 +1458,7 @@
       "Components": [
         {
           "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
-          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+          "ApplicationBehavior": "StackIfAlreadyApplied"
         }
       ]
     },
@@ -1469,7 +1469,7 @@
       "Components": [
         {
           "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
-          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+          "ApplicationBehavior": "StackIfAlreadyApplied"
         }
       ]
     },
@@ -1480,7 +1480,7 @@
       "Components": [
         {
           "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
-          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+          "ApplicationBehavior": "StackIfAlreadyApplied"
         }
       ]
     },
@@ -1491,7 +1491,7 @@
       "Components": [
         {
           "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
-          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+          "ApplicationBehavior": "StackIfAlreadyApplied"
         }
       ]
     },
@@ -1502,7 +1502,7 @@
       "Components": [
         {
           "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
-          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+          "ApplicationBehavior": "StackIfAlreadyApplied"
         }
       ]
     },
@@ -1513,7 +1513,7 @@
       "Components": [
         {
           "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
-          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+          "ApplicationBehavior": "StackIfAlreadyApplied"
         }
       ]
     },
@@ -1524,7 +1524,7 @@
       "Components": [
         {
           "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
-          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+          "ApplicationBehavior": "StackIfAlreadyApplied"
         }
       ]
     },
@@ -1535,7 +1535,7 @@
       "Components": [
         {
           "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
-          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+          "ApplicationBehavior": "StackIfAlreadyApplied"
         }
       ]
     },
@@ -1546,7 +1546,7 @@
       "Components": [
         {
           "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
-          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+          "ApplicationBehavior": "StackIfAlreadyApplied"
         }
       ]
     },
@@ -1557,7 +1557,7 @@
       "Components": [
         {
           "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
-          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+          "ApplicationBehavior": "StackIfAlreadyApplied"
         }
       ]
     },
@@ -1568,7 +1568,7 @@
       "Components": [
         {
           "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
-          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+          "ApplicationBehavior": "StackIfAlreadyApplied"
         }
       ]
     },
@@ -1579,7 +1579,7 @@
       "Components": [
         {
           "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
-          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+          "ApplicationBehavior": "StackIfAlreadyApplied"
         }
       ]
     },
@@ -1590,7 +1590,7 @@
       "Components": [
         {
           "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
-          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+          "ApplicationBehavior": "StackIfAlreadyApplied"
         }
       ]
     },
@@ -1601,7 +1601,7 @@
       "Components": [
         {
           "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
-          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+          "ApplicationBehavior": "StackIfAlreadyApplied"
         }
       ]
     },
@@ -1612,7 +1612,7 @@
       "Components": [
         {
           "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
-          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+          "ApplicationBehavior": "StackIfAlreadyApplied"
         }
       ]
     },
@@ -1623,7 +1623,7 @@
       "Components": [
         {
           "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
-          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+          "ApplicationBehavior": "StackIfAlreadyApplied"
         }
       ]
     },
@@ -1634,7 +1634,7 @@
       "Components": [
         {
           "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
-          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+          "ApplicationBehavior": "StackIfAlreadyApplied"
         }
       ]
     },
@@ -1645,7 +1645,7 @@
       "Components": [
         {
           "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
-          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+          "ApplicationBehavior": "StackIfAlreadyApplied"
         }
       ]
     },
@@ -1656,7 +1656,7 @@
       "Components": [
         {
           "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
-          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+          "ApplicationBehavior": "StackIfAlreadyApplied"
         }
       ]
     },
@@ -1667,7 +1667,7 @@
       "Components": [
         {
           "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
-          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+          "ApplicationBehavior": "StackIfAlreadyApplied"
         }
       ]
     },
@@ -1678,7 +1678,7 @@
       "Components": [
         {
           "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
-          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+          "ApplicationBehavior": "StackIfAlreadyApplied"
         }
       ]
     },
@@ -1689,7 +1689,7 @@
       "Components": [
         {
           "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
-          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+          "ApplicationBehavior": "StackIfAlreadyApplied"
         }
       ]
     },
@@ -1700,7 +1700,7 @@
       "Components": [
         {
           "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
-          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+          "ApplicationBehavior": "StackIfAlreadyApplied"
         }
       ]
     },
@@ -1711,7 +1711,7 @@
       "Components": [
         {
           "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
-          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+          "ApplicationBehavior": "StackIfAlreadyApplied"
         }
       ]
     },
@@ -1722,7 +1722,7 @@
       "Components": [
         {
           "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
-          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+          "ApplicationBehavior": "StackIfAlreadyApplied"
         }
       ]
     },
@@ -1733,7 +1733,7 @@
       "Components": [
         {
           "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
-          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+          "ApplicationBehavior": "StackIfAlreadyApplied"
         }
       ]
     },
@@ -1744,7 +1744,7 @@
       "Components": [
         {
           "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
-          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+          "ApplicationBehavior": "StackIfAlreadyApplied"
         }
       ]
     },
@@ -1755,7 +1755,7 @@
       "Components": [
         {
           "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
-          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+          "ApplicationBehavior": "StackIfAlreadyApplied"
         }
       ]
     },
@@ -1766,7 +1766,7 @@
       "Components": [
         {
           "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
-          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+          "ApplicationBehavior": "StackIfAlreadyApplied"
         }
       ]
     },
@@ -1777,7 +1777,7 @@
       "Components": [
         {
           "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
-          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+          "ApplicationBehavior": "StackIfAlreadyApplied"
         }
       ]
     },
@@ -1788,7 +1788,7 @@
       "Components": [
         {
           "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
-          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+          "ApplicationBehavior": "StackIfAlreadyApplied"
         }
       ]
     },
@@ -1799,7 +1799,7 @@
       "Components": [
         {
           "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
-          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+          "ApplicationBehavior": "StackIfAlreadyApplied"
         }
       ]
     },
@@ -1810,7 +1810,7 @@
       "Components": [
         {
           "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
-          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+          "ApplicationBehavior": "StackIfAlreadyApplied"
         }
       ]
     },
@@ -1821,7 +1821,7 @@
       "Components": [
         {
           "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
-          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+          "ApplicationBehavior": "StackIfAlreadyApplied"
         }
       ]
     },
@@ -1832,7 +1832,7 @@
       "Components": [
         {
           "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
-          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+          "ApplicationBehavior": "StackIfAlreadyApplied"
         }
       ]
     },
@@ -1843,7 +1843,7 @@
       "Components": [
         {
           "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
-          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+          "ApplicationBehavior": "StackIfAlreadyApplied"
         }
       ]
     },
@@ -1854,7 +1854,7 @@
       "Components": [
         {
           "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
-          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+          "ApplicationBehavior": "StackIfAlreadyApplied"
         }
       ]
     },
@@ -1865,7 +1865,7 @@
       "Components": [
         {
           "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
-          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+          "ApplicationBehavior": "StackIfAlreadyApplied"
         }
       ]
     },
@@ -1876,7 +1876,7 @@
       "Components": [
         {
           "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
-          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+          "ApplicationBehavior": "StackIfAlreadyApplied"
         }
       ]
     },
@@ -1887,7 +1887,7 @@
       "Components": [
         {
           "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
-          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+          "ApplicationBehavior": "StackIfAlreadyApplied"
         }
       ]
     },
@@ -1898,7 +1898,7 @@
       "Components": [
         {
           "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
-          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+          "ApplicationBehavior": "StackIfAlreadyApplied"
         }
       ]
     },
@@ -1909,7 +1909,7 @@
       "Components": [
         {
           "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
-          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+          "ApplicationBehavior": "StackIfAlreadyApplied"
         }
       ]
     },
@@ -1920,7 +1920,7 @@
       "Components": [
         {
           "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
-          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+          "ApplicationBehavior": "StackIfAlreadyApplied"
         }
       ]
     },
@@ -1931,7 +1931,7 @@
       "Components": [
         {
           "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
-          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+          "ApplicationBehavior": "StackIfAlreadyApplied"
         }
       ]
     },
@@ -1942,7 +1942,7 @@
       "Components": [
         {
           "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
-          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+          "ApplicationBehavior": "StackIfAlreadyApplied"
         }
       ]
     },
@@ -1953,7 +1953,7 @@
       "Components": [
         {
           "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
-          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+          "ApplicationBehavior": "StackIfAlreadyApplied"
         }
       ]
     },
@@ -1964,7 +1964,7 @@
       "Components": [
         {
           "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
-          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+          "ApplicationBehavior": "StackIfAlreadyApplied"
         }
       ]
     },
@@ -1975,7 +1975,7 @@
       "Components": [
         {
           "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
-          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+          "ApplicationBehavior": "StackIfAlreadyApplied"
         }
       ]
     },
@@ -1986,7 +1986,7 @@
       "Components": [
         {
           "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
-          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+          "ApplicationBehavior": "StackIfAlreadyApplied"
         }
       ]
     },
@@ -1997,7 +1997,7 @@
       "Components": [
         {
           "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
-          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+          "ApplicationBehavior": "StackIfAlreadyApplied"
         }
       ]
     },
@@ -2008,7 +2008,7 @@
       "Components": [
         {
           "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
-          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+          "ApplicationBehavior": "StackIfAlreadyApplied"
         }
       ]
     },
@@ -2019,7 +2019,7 @@
       "Components": [
         {
           "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
-          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+          "ApplicationBehavior": "StackIfAlreadyApplied"
         }
       ]
     },
@@ -2030,7 +2030,7 @@
       "Components": [
         {
           "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
-          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+          "ApplicationBehavior": "StackIfAlreadyApplied"
         }
       ]
     },
@@ -2041,7 +2041,7 @@
       "Components": [
         {
           "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
-          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+          "ApplicationBehavior": "StackIfAlreadyApplied"
         }
       ]
     },
@@ -2052,7 +2052,7 @@
       "Components": [
         {
           "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
-          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+          "ApplicationBehavior": "StackIfAlreadyApplied"
         }
       ]
     },
@@ -2063,7 +2063,7 @@
       "Components": [
         {
           "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
-          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+          "ApplicationBehavior": "StackIfAlreadyApplied"
         }
       ]
     },
@@ -2074,7 +2074,7 @@
       "Components": [
         {
           "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
-          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+          "ApplicationBehavior": "StackIfAlreadyApplied"
         }
       ]
     },
@@ -2085,7 +2085,7 @@
       "Components": [
         {
           "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
-          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+          "ApplicationBehavior": "StackIfAlreadyApplied"
         }
       ]
     },
@@ -2096,7 +2096,7 @@
       "Components": [
         {
           "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
-          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+          "ApplicationBehavior": "StackIfAlreadyApplied"
         }
       ]
     },
@@ -2107,7 +2107,7 @@
       "Components": [
         {
           "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
-          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+          "ApplicationBehavior": "StackIfAlreadyApplied"
         }
       ]
     },
@@ -2118,7 +2118,7 @@
       "Components": [
         {
           "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
-          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+          "ApplicationBehavior": "StackIfAlreadyApplied"
         }
       ]
     },
@@ -2129,7 +2129,7 @@
       "Components": [
         {
           "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
-          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+          "ApplicationBehavior": "StackIfAlreadyApplied"
         }
       ]
     },
@@ -2140,7 +2140,7 @@
       "Components": [
         {
           "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
-          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+          "ApplicationBehavior": "StackIfAlreadyApplied"
         }
       ]
     },
@@ -2151,7 +2151,7 @@
       "Components": [
         {
           "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
-          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+          "ApplicationBehavior": "StackIfAlreadyApplied"
         }
       ]
     },
@@ -2162,7 +2162,7 @@
       "Components": [
         {
           "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
-          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+          "ApplicationBehavior": "StackIfAlreadyApplied"
         }
       ]
     },
@@ -2173,7 +2173,7 @@
       "Components": [
         {
           "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
-          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+          "ApplicationBehavior": "StackIfAlreadyApplied"
         }
       ]
     },
@@ -2184,7 +2184,7 @@
       "Components": [
         {
           "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
-          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+          "ApplicationBehavior": "StackIfAlreadyApplied"
         }
       ]
     },
@@ -2195,7 +2195,7 @@
       "Components": [
         {
           "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
-          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+          "ApplicationBehavior": "StackIfAlreadyApplied"
         }
       ]
     },
@@ -2206,7 +2206,7 @@
       "Components": [
         {
           "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
-          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+          "ApplicationBehavior": "StackIfAlreadyApplied"
         }
       ]
     },
@@ -2217,7 +2217,7 @@
       "Components": [
         {
           "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
-          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+          "ApplicationBehavior": "StackIfAlreadyApplied"
         }
       ]
     },
@@ -2228,7 +2228,7 @@
       "Components": [
         {
           "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
-          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+          "ApplicationBehavior": "StackIfAlreadyApplied"
         }
       ]
     },
@@ -2239,7 +2239,7 @@
       "Components": [
         {
           "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
-          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+          "ApplicationBehavior": "StackIfAlreadyApplied"
         }
       ]
     },
@@ -2250,7 +2250,7 @@
       "Components": [
         {
           "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
-          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+          "ApplicationBehavior": "StackIfAlreadyApplied"
         }
       ]
     },
@@ -2261,7 +2261,7 @@
       "Components": [
         {
           "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
-          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+          "ApplicationBehavior": "StackIfAlreadyApplied"
         }
       ]
     },
@@ -2272,7 +2272,7 @@
       "Components": [
         {
           "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
-          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+          "ApplicationBehavior": "StackIfAlreadyApplied"
         }
       ]
     },
@@ -2283,7 +2283,7 @@
       "Components": [
         {
           "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
-          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+          "ApplicationBehavior": "StackIfAlreadyApplied"
         }
       ]
     },
@@ -2294,7 +2294,7 @@
       "Components": [
         {
           "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
-          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+          "ApplicationBehavior": "StackIfAlreadyApplied"
         }
       ]
     },
@@ -2305,7 +2305,7 @@
       "Components": [
         {
           "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
-          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+          "ApplicationBehavior": "StackIfAlreadyApplied"
         }
       ]
     },
@@ -2316,7 +2316,7 @@
       "Components": [
         {
           "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
-          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+          "ApplicationBehavior": "StackIfAlreadyApplied"
         }
       ]
     },
@@ -2327,7 +2327,7 @@
       "Components": [
         {
           "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
-          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+          "ApplicationBehavior": "StackIfAlreadyApplied"
         }
       ]
     },
@@ -2338,7 +2338,7 @@
       "Components": [
         {
           "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
-          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+          "ApplicationBehavior": "StackIfAlreadyApplied"
         }
       ]
     },
@@ -2349,7 +2349,7 @@
       "Components": [
         {
           "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
-          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+          "ApplicationBehavior": "StackIfAlreadyApplied"
         }
       ]
     },
@@ -2360,7 +2360,7 @@
       "Components": [
         {
           "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
-          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+          "ApplicationBehavior": "StackIfAlreadyApplied"
         }
       ]
     },
@@ -2371,7 +2371,7 @@
       "Components": [
         {
           "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
-          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+          "ApplicationBehavior": "StackIfAlreadyApplied"
         }
       ]
     },
@@ -2382,7 +2382,7 @@
       "Components": [
         {
           "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
-          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+          "ApplicationBehavior": "StackIfAlreadyApplied"
         }
       ]
     },
@@ -2393,7 +2393,7 @@
       "Components": [
         {
           "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
-          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+          "ApplicationBehavior": "StackIfAlreadyApplied"
         }
       ]
     },
@@ -2404,7 +2404,7 @@
       "Components": [
         {
           "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
-          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+          "ApplicationBehavior": "StackIfAlreadyApplied"
         }
       ]
     },
@@ -2415,7 +2415,7 @@
       "Components": [
         {
           "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
-          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+          "ApplicationBehavior": "StackIfAlreadyApplied"
         }
       ]
     },
@@ -2426,7 +2426,7 @@
       "Components": [
         {
           "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
-          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+          "ApplicationBehavior": "StackIfAlreadyApplied"
         }
       ]
     },
@@ -2437,7 +2437,7 @@
       "Components": [
         {
           "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
-          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+          "ApplicationBehavior": "StackIfAlreadyApplied"
         }
       ]
     },
@@ -2448,7 +2448,7 @@
       "Components": [
         {
           "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
-          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+          "ApplicationBehavior": "StackIfAlreadyApplied"
         }
       ]
     },
@@ -2459,7 +2459,7 @@
       "Components": [
         {
           "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
-          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+          "ApplicationBehavior": "StackIfAlreadyApplied"
         }
       ]
     },
@@ -2470,7 +2470,7 @@
       "Components": [
         {
           "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
-          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+          "ApplicationBehavior": "StackIfAlreadyApplied"
         }
       ]
     },
@@ -2481,7 +2481,7 @@
       "Components": [
         {
           "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
-          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+          "ApplicationBehavior": "StackIfAlreadyApplied"
         }
       ]
     },
@@ -2492,7 +2492,7 @@
       "Components": [
         {
           "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
-          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+          "ApplicationBehavior": "StackIfAlreadyApplied"
         }
       ]
     },
@@ -2503,7 +2503,7 @@
       "Components": [
         {
           "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
-          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+          "ApplicationBehavior": "StackIfAlreadyApplied"
         }
       ]
     },
@@ -2514,7 +2514,7 @@
       "Components": [
         {
           "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
-          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+          "ApplicationBehavior": "StackIfAlreadyApplied"
         }
       ]
     },
@@ -2525,7 +2525,7 @@
       "Components": [
         {
           "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
-          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+          "ApplicationBehavior": "StackIfAlreadyApplied"
         }
       ]
     },
@@ -2536,7 +2536,7 @@
       "Components": [
         {
           "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
-          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+          "ApplicationBehavior": "StackIfAlreadyApplied"
         }
       ]
     },
@@ -2547,7 +2547,7 @@
       "Components": [
         {
           "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
-          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+          "ApplicationBehavior": "StackIfAlreadyApplied"
         }
       ]
     },
@@ -2558,7 +2558,7 @@
       "Components": [
         {
           "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
-          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
+          "ApplicationBehavior": "StackIfAlreadyApplied"
         }
       ]
     },
@@ -2707,7 +2707,9 @@
             "MultiplyBy": 1,
             "Operator": "Add"
           },
-          "KeywordsIDs": [],
+          "KeywordsIDs": [
+            "dd757e57-137d-4635-9d49-e820dc252431"
+          ],
           "DurationType": "Infinite",
           "Duration": 0,
           "MaxStackQuantity": 0,
@@ -2811,6 +2813,1025 @@
           "AudioEventListID": "00000000-0000-0000-0000-000000000000",
           "BedRestDaysMinimum": 0,
           "BedRestDaysMaximum": 0
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "ArenaMod01_OfMight_ENC_Dexterity",
+      "ID": "a2704f69-146a-472d-88f4-32669acd43a4",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "StatusEffectType": "Dexterity",
+          "OverrideDescriptionString": -1,
+          "OverrideDescriptionStringTactical": -1,
+          "UseStatusEffectValueAs": "None",
+          "BaseValue": 3,
+          "DynamicValue": {
+            "Stat": "None",
+            "SkillDataID": "00000000-0000-0000-0000-000000000000",
+            "ClassID": "00000000-0000-0000-0000-000000000000",
+            "MultiplyBy": 1,
+            "Operator": "Add"
+          },
+          "KeywordsIDs": [],
+          "DurationType": "Infinite",
+          "Duration": 1,
+          "MaxStackQuantity": 0,
+          "ApplicationBehavior": "StackIfAlreadyApplied",
+          "ApplicationType": "ApplyOnStart",
+          "IntervalRateID": "00000000-0000-0000-0000-000000000000",
+          "StackedChildrenApplyEffects": "false",
+          "InclusionConditions": {
+            "Operator": 0,
+            "Components": []
+          },
+          "ApplicationPrerequisites": {
+            "Conditional": {
+              "Operator": 0,
+              "Components": []
+            }
+          },
+          "TriggerAdjustment": {
+            "TriggerOnEvent": "None",
+            "TriggerOffEvent": "None",
+            "ValidateWithAttackFilter": "false",
+            "ParamValue": 0,
+            "ValueAdjustment": 0,
+            "DurationAdjustment": 0,
+            "ResetTriggerOnEffectTimeout": "false",
+            "MaxTriggerCount": 0,
+            "IgnoreMaxTriggerCount": "false",
+            "RemoveEffectAtMax": "false",
+            "ChanceToTrigger": 1
+          },
+          "PowerLevelScaling": {
+            "UseCharacterLevel": "false",
+            "BaseLevel": 0,
+            "LevelIncrement": 1,
+            "MaxLevel": 0,
+            "ValueAdjustment": 0,
+            "DurationAdjustment": 0
+          },
+          "IsHostile": "false",
+          "ClearOnCombatEnd": "false",
+          "ClearOnRest": "false",
+          "ClearOnFoodRest": "false",
+          "ClearWhenAttacks": "false",
+          "ClearOnDeath": "false",
+          "HideFromCombatTooltip": "false",
+          "HideFromCombatLog": "false",
+          "HideFromUI": "false",
+          "HideIfNoValue": "false",
+          "VisualEffects": [],
+          "MaterialReplacementID": "00000000-0000-0000-0000-000000000000",
+          "AttackFilter": {
+            "KeywordsIDs": [],
+            "KeywordLogic": "Or",
+            "Race": "None",
+            "IsKith": "false",
+            "HealthPercentage": 0,
+            "HealthOperator": "EqualTo",
+            "Range": "None",
+            "ClassTypeID": "00000000-0000-0000-0000-000000000000",
+            "Source": "None",
+            "DefendedBy": "None",
+            "Empowered": "false",
+            "Disengagement": "false",
+            "Stealthed": "false",
+            "UseStealthLinger": "false",
+            "PowerLevel": 0,
+            "PowerLevelOperator": "EqualTo",
+            "ChanceToApply": 1,
+            "AttackHostility": "Default",
+            "TargetType": "None"
+          },
+          "AttackTargetFilter": {
+            "KeywordsIDs": [],
+            "KeywordLogic": "Or",
+            "Race": "None",
+            "IsKith": "false",
+            "HealthPercentage": 0,
+            "HealthOperator": "EqualTo",
+            "Distance": 0,
+            "DistanceOperator": "EqualTo",
+            "HasDOT": "false",
+            "IsMarked": "false",
+            "TargetHostility": "Default"
+          },
+          "ExtraValue": 0,
+          "OverridePenetration": 0,
+          "DamageTypeValue": "All",
+          "KeywordValueID": "00000000-0000-0000-0000-000000000000",
+          "RaceValue": "None",
+          "StatusEffectTypeValue": "None",
+          "ItemValueID": "00000000-0000-0000-0000-000000000000",
+          "AfflictionTypeValueID": "00000000-0000-0000-0000-000000000000",
+          "StatusEffectsValueIDs": [],
+          "AttackValueID": "00000000-0000-0000-0000-000000000000",
+          "AttackOverrideValue": "None",
+          "EventValue": "OnApply",
+          "ClassValueID": "00000000-0000-0000-0000-000000000000",
+          "WeaponTypeValue": "None",
+          "AttackHitType": "None",
+          "SkillValueID": "00000000-0000-0000-0000-000000000000",
+          "AudioEventListID": "00000000-0000-0000-0000-000000000000",
+          "BedRestDaysMinimum": 0,
+          "BedRestDaysMaximum": 0
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "ArenaMod01_OfMight_ENC_Constitution",
+      "ID": "af1a97a9-b2c1-4258-b094-752686171d85",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "StatusEffectType": "Constitution",
+          "OverrideDescriptionString": -1,
+          "OverrideDescriptionStringTactical": -1,
+          "UseStatusEffectValueAs": "None",
+          "BaseValue": 3,
+          "DynamicValue": {
+            "Stat": "None",
+            "SkillDataID": "00000000-0000-0000-0000-000000000000",
+            "ClassID": "00000000-0000-0000-0000-000000000000",
+            "MultiplyBy": 1,
+            "Operator": "Add"
+          },
+          "KeywordsIDs": [],
+          "DurationType": "Infinite",
+          "Duration": 1,
+          "MaxStackQuantity": 0,
+          "ApplicationBehavior": "StackIfAlreadyApplied",
+          "ApplicationType": "ApplyOnStart",
+          "IntervalRateID": "00000000-0000-0000-0000-000000000000",
+          "StackedChildrenApplyEffects": "false",
+          "InclusionConditions": {
+            "Operator": 0,
+            "Components": []
+          },
+          "ApplicationPrerequisites": {
+            "Conditional": {
+              "Operator": 0,
+              "Components": []
+            }
+          },
+          "TriggerAdjustment": {
+            "TriggerOnEvent": "None",
+            "TriggerOffEvent": "None",
+            "ValidateWithAttackFilter": "false",
+            "ParamValue": 0,
+            "ValueAdjustment": 0,
+            "DurationAdjustment": 0,
+            "ResetTriggerOnEffectTimeout": "false",
+            "MaxTriggerCount": 0,
+            "IgnoreMaxTriggerCount": "false",
+            "RemoveEffectAtMax": "false",
+            "ChanceToTrigger": 1
+          },
+          "PowerLevelScaling": {
+            "UseCharacterLevel": "false",
+            "BaseLevel": 0,
+            "LevelIncrement": 1,
+            "MaxLevel": 0,
+            "ValueAdjustment": 0,
+            "DurationAdjustment": 0
+          },
+          "IsHostile": "false",
+          "ClearOnCombatEnd": "false",
+          "ClearOnRest": "false",
+          "ClearOnFoodRest": "false",
+          "ClearWhenAttacks": "false",
+          "ClearOnDeath": "false",
+          "HideFromCombatTooltip": "false",
+          "HideFromCombatLog": "false",
+          "HideFromUI": "false",
+          "HideIfNoValue": "false",
+          "VisualEffects": [],
+          "MaterialReplacementID": "00000000-0000-0000-0000-000000000000",
+          "AttackFilter": {
+            "KeywordsIDs": [],
+            "KeywordLogic": "Or",
+            "Race": "None",
+            "IsKith": "false",
+            "HealthPercentage": 0,
+            "HealthOperator": "EqualTo",
+            "Range": "None",
+            "ClassTypeID": "00000000-0000-0000-0000-000000000000",
+            "Source": "None",
+            "DefendedBy": "None",
+            "Empowered": "false",
+            "Disengagement": "false",
+            "Stealthed": "false",
+            "UseStealthLinger": "false",
+            "PowerLevel": 0,
+            "PowerLevelOperator": "EqualTo",
+            "ChanceToApply": 1,
+            "AttackHostility": "Default",
+            "TargetType": "None"
+          },
+          "AttackTargetFilter": {
+            "KeywordsIDs": [],
+            "KeywordLogic": "Or",
+            "Race": "None",
+            "IsKith": "false",
+            "HealthPercentage": 0,
+            "HealthOperator": "EqualTo",
+            "Distance": 0,
+            "DistanceOperator": "EqualTo",
+            "HasDOT": "false",
+            "IsMarked": "false",
+            "TargetHostility": "Default"
+          },
+          "ExtraValue": 0,
+          "OverridePenetration": 0,
+          "DamageTypeValue": "All",
+          "KeywordValueID": "00000000-0000-0000-0000-000000000000",
+          "RaceValue": "None",
+          "StatusEffectTypeValue": "None",
+          "ItemValueID": "00000000-0000-0000-0000-000000000000",
+          "AfflictionTypeValueID": "00000000-0000-0000-0000-000000000000",
+          "StatusEffectsValueIDs": [],
+          "AttackValueID": "00000000-0000-0000-0000-000000000000",
+          "AttackOverrideValue": "None",
+          "EventValue": "OnApply",
+          "ClassValueID": "00000000-0000-0000-0000-000000000000",
+          "WeaponTypeValue": "None",
+          "AttackHitType": "None",
+          "SkillValueID": "00000000-0000-0000-0000-000000000000",
+          "AudioEventListID": "00000000-0000-0000-0000-000000000000",
+          "BedRestDaysMinimum": 0,
+          "BedRestDaysMaximum": 0
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "ArenaMod01_OfMight_ENC_Might",
+      "ID": "7b55a332-525a-4912-a832-1f9c80c4b25a",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "StatusEffectType": "Might",
+          "OverrideDescriptionString": -1,
+          "OverrideDescriptionStringTactical": -1,
+          "UseStatusEffectValueAs": "None",
+          "BaseValue": 3,
+          "DynamicValue": {
+            "Stat": "None",
+            "SkillDataID": "00000000-0000-0000-0000-000000000000",
+            "ClassID": "00000000-0000-0000-0000-000000000000",
+            "MultiplyBy": 1,
+            "Operator": "Add"
+          },
+          "KeywordsIDs": [],
+          "DurationType": "Infinite",
+          "Duration": 1,
+          "MaxStackQuantity": 0,
+          "ApplicationBehavior": "StackIfAlreadyApplied",
+          "ApplicationType": "ApplyOnStart",
+          "IntervalRateID": "00000000-0000-0000-0000-000000000000",
+          "StackedChildrenApplyEffects": "false",
+          "InclusionConditions": {
+            "Operator": 0,
+            "Components": []
+          },
+          "ApplicationPrerequisites": {
+            "Conditional": {
+              "Operator": 0,
+              "Components": []
+            }
+          },
+          "TriggerAdjustment": {
+            "TriggerOnEvent": "None",
+            "TriggerOffEvent": "None",
+            "ValidateWithAttackFilter": "false",
+            "ParamValue": 0,
+            "ValueAdjustment": 0,
+            "DurationAdjustment": 0,
+            "ResetTriggerOnEffectTimeout": "false",
+            "MaxTriggerCount": 0,
+            "IgnoreMaxTriggerCount": "false",
+            "RemoveEffectAtMax": "false",
+            "ChanceToTrigger": 1
+          },
+          "PowerLevelScaling": {
+            "UseCharacterLevel": "false",
+            "BaseLevel": 0,
+            "LevelIncrement": 1,
+            "MaxLevel": 0,
+            "ValueAdjustment": 0,
+            "DurationAdjustment": 0
+          },
+          "IsHostile": "false",
+          "ClearOnCombatEnd": "false",
+          "ClearOnRest": "false",
+          "ClearOnFoodRest": "false",
+          "ClearWhenAttacks": "false",
+          "ClearOnDeath": "false",
+          "HideFromCombatTooltip": "false",
+          "HideFromCombatLog": "false",
+          "HideFromUI": "false",
+          "HideIfNoValue": "false",
+          "VisualEffects": [],
+          "MaterialReplacementID": "00000000-0000-0000-0000-000000000000",
+          "AttackFilter": {
+            "KeywordsIDs": [],
+            "KeywordLogic": "Or",
+            "Race": "None",
+            "IsKith": "false",
+            "HealthPercentage": 0,
+            "HealthOperator": "EqualTo",
+            "Range": "None",
+            "ClassTypeID": "00000000-0000-0000-0000-000000000000",
+            "Source": "None",
+            "DefendedBy": "None",
+            "Empowered": "false",
+            "Disengagement": "false",
+            "Stealthed": "false",
+            "UseStealthLinger": "false",
+            "PowerLevel": 0,
+            "PowerLevelOperator": "EqualTo",
+            "ChanceToApply": 1,
+            "AttackHostility": "Default",
+            "TargetType": "None"
+          },
+          "AttackTargetFilter": {
+            "KeywordsIDs": [],
+            "KeywordLogic": "Or",
+            "Race": "None",
+            "IsKith": "false",
+            "HealthPercentage": 0,
+            "HealthOperator": "EqualTo",
+            "Distance": 0,
+            "DistanceOperator": "EqualTo",
+            "HasDOT": "false",
+            "IsMarked": "false",
+            "TargetHostility": "Default"
+          },
+          "ExtraValue": 0,
+          "OverridePenetration": 0,
+          "DamageTypeValue": "All",
+          "KeywordValueID": "00000000-0000-0000-0000-000000000000",
+          "RaceValue": "None",
+          "StatusEffectTypeValue": "None",
+          "ItemValueID": "00000000-0000-0000-0000-000000000000",
+          "AfflictionTypeValueID": "00000000-0000-0000-0000-000000000000",
+          "StatusEffectsValueIDs": [],
+          "AttackValueID": "00000000-0000-0000-0000-000000000000",
+          "AttackOverrideValue": "None",
+          "EventValue": "OnApply",
+          "ClassValueID": "00000000-0000-0000-0000-000000000000",
+          "WeaponTypeValue": "None",
+          "AttackHitType": "None",
+          "SkillValueID": "00000000-0000-0000-0000-000000000000",
+          "AudioEventListID": "00000000-0000-0000-0000-000000000000",
+          "BedRestDaysMinimum": 0,
+          "BedRestDaysMaximum": 0
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "ArenaMod01_OfMagic_ENC_Intellect",
+      "ID": "5a580815-290a-4dad-967d-02ec75ace05e",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "StatusEffectType": "Intellect",
+          "OverrideDescriptionString": -1,
+          "OverrideDescriptionStringTactical": -1,
+          "UseStatusEffectValueAs": "None",
+          "BaseValue": 3,
+          "DynamicValue": {
+            "Stat": "None",
+            "SkillDataID": "00000000-0000-0000-0000-000000000000",
+            "ClassID": "00000000-0000-0000-0000-000000000000",
+            "MultiplyBy": 1,
+            "Operator": "Add"
+          },
+          "KeywordsIDs": [],
+          "DurationType": "Infinite",
+          "Duration": 1,
+          "MaxStackQuantity": 0,
+          "ApplicationBehavior": "StackIfAlreadyApplied",
+          "ApplicationType": "ApplyOnStart",
+          "IntervalRateID": "00000000-0000-0000-0000-000000000000",
+          "StackedChildrenApplyEffects": "false",
+          "InclusionConditions": {
+            "Operator": 0,
+            "Components": []
+          },
+          "ApplicationPrerequisites": {
+            "Conditional": {
+              "Operator": 0,
+              "Components": []
+            }
+          },
+          "TriggerAdjustment": {
+            "TriggerOnEvent": "None",
+            "TriggerOffEvent": "None",
+            "ValidateWithAttackFilter": "false",
+            "ParamValue": 0,
+            "ValueAdjustment": 0,
+            "DurationAdjustment": 0,
+            "ResetTriggerOnEffectTimeout": "false",
+            "MaxTriggerCount": 0,
+            "IgnoreMaxTriggerCount": "false",
+            "RemoveEffectAtMax": "false",
+            "ChanceToTrigger": 1
+          },
+          "PowerLevelScaling": {
+            "UseCharacterLevel": "false",
+            "BaseLevel": 0,
+            "LevelIncrement": 1,
+            "MaxLevel": 0,
+            "ValueAdjustment": 0,
+            "DurationAdjustment": 0
+          },
+          "IsHostile": "false",
+          "ClearOnCombatEnd": "false",
+          "ClearOnRest": "false",
+          "ClearOnFoodRest": "false",
+          "ClearWhenAttacks": "false",
+          "ClearOnDeath": "false",
+          "HideFromCombatTooltip": "false",
+          "HideFromCombatLog": "false",
+          "HideFromUI": "false",
+          "HideIfNoValue": "false",
+          "VisualEffects": [],
+          "MaterialReplacementID": "00000000-0000-0000-0000-000000000000",
+          "AttackFilter": {
+            "KeywordsIDs": [],
+            "KeywordLogic": "Or",
+            "Race": "None",
+            "IsKith": "false",
+            "HealthPercentage": 0,
+            "HealthOperator": "EqualTo",
+            "Range": "None",
+            "ClassTypeID": "00000000-0000-0000-0000-000000000000",
+            "Source": "None",
+            "DefendedBy": "None",
+            "Empowered": "false",
+            "Disengagement": "false",
+            "Stealthed": "false",
+            "UseStealthLinger": "false",
+            "PowerLevel": 0,
+            "PowerLevelOperator": "EqualTo",
+            "ChanceToApply": 1,
+            "AttackHostility": "Default",
+            "TargetType": "None"
+          },
+          "AttackTargetFilter": {
+            "KeywordsIDs": [],
+            "KeywordLogic": "Or",
+            "Race": "None",
+            "IsKith": "false",
+            "HealthPercentage": 0,
+            "HealthOperator": "EqualTo",
+            "Distance": 0,
+            "DistanceOperator": "EqualTo",
+            "HasDOT": "false",
+            "IsMarked": "false",
+            "TargetHostility": "Default"
+          },
+          "ExtraValue": 0,
+          "OverridePenetration": 0,
+          "DamageTypeValue": "All",
+          "KeywordValueID": "00000000-0000-0000-0000-000000000000",
+          "RaceValue": "None",
+          "StatusEffectTypeValue": "None",
+          "ItemValueID": "00000000-0000-0000-0000-000000000000",
+          "AfflictionTypeValueID": "00000000-0000-0000-0000-000000000000",
+          "StatusEffectsValueIDs": [],
+          "AttackValueID": "00000000-0000-0000-0000-000000000000",
+          "AttackOverrideValue": "None",
+          "EventValue": "OnApply",
+          "ClassValueID": "00000000-0000-0000-0000-000000000000",
+          "WeaponTypeValue": "None",
+          "AttackHitType": "None",
+          "SkillValueID": "00000000-0000-0000-0000-000000000000",
+          "AudioEventListID": "00000000-0000-0000-0000-000000000000",
+          "BedRestDaysMinimum": 0,
+          "BedRestDaysMaximum": 0
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "ArenaMod01_OfMagic_ENC_Perception",
+      "ID": "e026d5ee-0fff-425d-af7c-4937416954e2",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "StatusEffectType": "Perception",
+          "OverrideDescriptionString": -1,
+          "OverrideDescriptionStringTactical": -1,
+          "UseStatusEffectValueAs": "None",
+          "BaseValue": 3,
+          "DynamicValue": {
+            "Stat": "None",
+            "SkillDataID": "00000000-0000-0000-0000-000000000000",
+            "ClassID": "00000000-0000-0000-0000-000000000000",
+            "MultiplyBy": 1,
+            "Operator": "Add"
+          },
+          "KeywordsIDs": [],
+          "DurationType": "Infinite",
+          "Duration": 1,
+          "MaxStackQuantity": 0,
+          "ApplicationBehavior": "StackIfAlreadyApplied",
+          "ApplicationType": "ApplyOnStart",
+          "IntervalRateID": "00000000-0000-0000-0000-000000000000",
+          "StackedChildrenApplyEffects": "false",
+          "InclusionConditions": {
+            "Operator": 0,
+            "Components": []
+          },
+          "ApplicationPrerequisites": {
+            "Conditional": {
+              "Operator": 0,
+              "Components": []
+            }
+          },
+          "TriggerAdjustment": {
+            "TriggerOnEvent": "None",
+            "TriggerOffEvent": "None",
+            "ValidateWithAttackFilter": "false",
+            "ParamValue": 0,
+            "ValueAdjustment": 0,
+            "DurationAdjustment": 0,
+            "ResetTriggerOnEffectTimeout": "false",
+            "MaxTriggerCount": 0,
+            "IgnoreMaxTriggerCount": "false",
+            "RemoveEffectAtMax": "false",
+            "ChanceToTrigger": 1
+          },
+          "PowerLevelScaling": {
+            "UseCharacterLevel": "false",
+            "BaseLevel": 0,
+            "LevelIncrement": 1,
+            "MaxLevel": 0,
+            "ValueAdjustment": 0,
+            "DurationAdjustment": 0
+          },
+          "IsHostile": "false",
+          "ClearOnCombatEnd": "false",
+          "ClearOnRest": "false",
+          "ClearOnFoodRest": "false",
+          "ClearWhenAttacks": "false",
+          "ClearOnDeath": "false",
+          "HideFromCombatTooltip": "false",
+          "HideFromCombatLog": "false",
+          "HideFromUI": "false",
+          "HideIfNoValue": "false",
+          "VisualEffects": [],
+          "MaterialReplacementID": "00000000-0000-0000-0000-000000000000",
+          "AttackFilter": {
+            "KeywordsIDs": [],
+            "KeywordLogic": "Or",
+            "Race": "None",
+            "IsKith": "false",
+            "HealthPercentage": 0,
+            "HealthOperator": "EqualTo",
+            "Range": "None",
+            "ClassTypeID": "00000000-0000-0000-0000-000000000000",
+            "Source": "None",
+            "DefendedBy": "None",
+            "Empowered": "false",
+            "Disengagement": "false",
+            "Stealthed": "false",
+            "UseStealthLinger": "false",
+            "PowerLevel": 0,
+            "PowerLevelOperator": "EqualTo",
+            "ChanceToApply": 1,
+            "AttackHostility": "Default",
+            "TargetType": "None"
+          },
+          "AttackTargetFilter": {
+            "KeywordsIDs": [],
+            "KeywordLogic": "Or",
+            "Race": "None",
+            "IsKith": "false",
+            "HealthPercentage": 0,
+            "HealthOperator": "EqualTo",
+            "Distance": 0,
+            "DistanceOperator": "EqualTo",
+            "HasDOT": "false",
+            "IsMarked": "false",
+            "TargetHostility": "Default"
+          },
+          "ExtraValue": 0,
+          "OverridePenetration": 0,
+          "DamageTypeValue": "All",
+          "KeywordValueID": "00000000-0000-0000-0000-000000000000",
+          "RaceValue": "None",
+          "StatusEffectTypeValue": "None",
+          "ItemValueID": "00000000-0000-0000-0000-000000000000",
+          "AfflictionTypeValueID": "00000000-0000-0000-0000-000000000000",
+          "StatusEffectsValueIDs": [],
+          "AttackValueID": "00000000-0000-0000-0000-000000000000",
+          "AttackOverrideValue": "None",
+          "EventValue": "OnApply",
+          "ClassValueID": "00000000-0000-0000-0000-000000000000",
+          "WeaponTypeValue": "None",
+          "AttackHitType": "None",
+          "SkillValueID": "00000000-0000-0000-0000-000000000000",
+          "AudioEventListID": "00000000-0000-0000-0000-000000000000",
+          "BedRestDaysMinimum": 0,
+          "BedRestDaysMaximum": 0
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "ArenaMod01_OfMagic_ENC_Resolve",
+      "ID": "fa2bda17-8a59-4df3-9242-d620ad89e8c9",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "StatusEffectType": "Resolve",
+          "OverrideDescriptionString": -1,
+          "OverrideDescriptionStringTactical": -1,
+          "UseStatusEffectValueAs": "None",
+          "BaseValue": 3,
+          "DynamicValue": {
+            "Stat": "None",
+            "SkillDataID": "00000000-0000-0000-0000-000000000000",
+            "ClassID": "00000000-0000-0000-0000-000000000000",
+            "MultiplyBy": 1,
+            "Operator": "Add"
+          },
+          "KeywordsIDs": [],
+          "DurationType": "Infinite",
+          "Duration": 1,
+          "MaxStackQuantity": 0,
+          "ApplicationBehavior": "StackIfAlreadyApplied",
+          "ApplicationType": "ApplyOnStart",
+          "IntervalRateID": "00000000-0000-0000-0000-000000000000",
+          "StackedChildrenApplyEffects": "false",
+          "InclusionConditions": {
+            "Operator": 0,
+            "Components": []
+          },
+          "ApplicationPrerequisites": {
+            "Conditional": {
+              "Operator": 0,
+              "Components": []
+            }
+          },
+          "TriggerAdjustment": {
+            "TriggerOnEvent": "None",
+            "TriggerOffEvent": "None",
+            "ValidateWithAttackFilter": "false",
+            "ParamValue": 0,
+            "ValueAdjustment": 0,
+            "DurationAdjustment": 0,
+            "ResetTriggerOnEffectTimeout": "false",
+            "MaxTriggerCount": 0,
+            "IgnoreMaxTriggerCount": "false",
+            "RemoveEffectAtMax": "false",
+            "ChanceToTrigger": 1
+          },
+          "PowerLevelScaling": {
+            "UseCharacterLevel": "false",
+            "BaseLevel": 0,
+            "LevelIncrement": 1,
+            "MaxLevel": 0,
+            "ValueAdjustment": 0,
+            "DurationAdjustment": 0
+          },
+          "IsHostile": "false",
+          "ClearOnCombatEnd": "false",
+          "ClearOnRest": "false",
+          "ClearOnFoodRest": "false",
+          "ClearWhenAttacks": "false",
+          "ClearOnDeath": "false",
+          "HideFromCombatTooltip": "false",
+          "HideFromCombatLog": "false",
+          "HideFromUI": "false",
+          "HideIfNoValue": "false",
+          "VisualEffects": [],
+          "MaterialReplacementID": "00000000-0000-0000-0000-000000000000",
+          "AttackFilter": {
+            "KeywordsIDs": [],
+            "KeywordLogic": "Or",
+            "Race": "None",
+            "IsKith": "false",
+            "HealthPercentage": 0,
+            "HealthOperator": "EqualTo",
+            "Range": "None",
+            "ClassTypeID": "00000000-0000-0000-0000-000000000000",
+            "Source": "None",
+            "DefendedBy": "None",
+            "Empowered": "false",
+            "Disengagement": "false",
+            "Stealthed": "false",
+            "UseStealthLinger": "false",
+            "PowerLevel": 0,
+            "PowerLevelOperator": "EqualTo",
+            "ChanceToApply": 1,
+            "AttackHostility": "Default",
+            "TargetType": "None"
+          },
+          "AttackTargetFilter": {
+            "KeywordsIDs": [],
+            "KeywordLogic": "Or",
+            "Race": "None",
+            "IsKith": "false",
+            "HealthPercentage": 0,
+            "HealthOperator": "EqualTo",
+            "Distance": 0,
+            "DistanceOperator": "EqualTo",
+            "HasDOT": "false",
+            "IsMarked": "false",
+            "TargetHostility": "Default"
+          },
+          "ExtraValue": 0,
+          "OverridePenetration": 0,
+          "DamageTypeValue": "All",
+          "KeywordValueID": "00000000-0000-0000-0000-000000000000",
+          "RaceValue": "None",
+          "StatusEffectTypeValue": "None",
+          "ItemValueID": "00000000-0000-0000-0000-000000000000",
+          "AfflictionTypeValueID": "00000000-0000-0000-0000-000000000000",
+          "StatusEffectsValueIDs": [],
+          "AttackValueID": "00000000-0000-0000-0000-000000000000",
+          "AttackOverrideValue": "None",
+          "EventValue": "OnApply",
+          "ClassValueID": "00000000-0000-0000-0000-000000000000",
+          "WeaponTypeValue": "None",
+          "AttackHitType": "None",
+          "SkillValueID": "00000000-0000-0000-0000-000000000000",
+          "AudioEventListID": "00000000-0000-0000-0000-000000000000",
+          "BedRestDaysMinimum": 0,
+          "BedRestDaysMaximum": 0
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "ArenaMod01_OfMastery_ENC_SkillAll",
+      "ID": "fbf5add1-a8e9-4787-b3e1-f776da7cbdde",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "StatusEffectType": "SkillAll",
+          "OverrideDescriptionString": -1,
+          "OverrideDescriptionStringTactical": -1,
+          "UseStatusEffectValueAs": "None",
+          "BaseValue": 5,
+          "DynamicValue": {
+            "Stat": "None",
+            "SkillDataID": "00000000-0000-0000-0000-000000000000",
+            "ClassID": "00000000-0000-0000-0000-000000000000",
+            "MultiplyBy": 1,
+            "Operator": "Add"
+          },
+          "KeywordsIDs": [],
+          "DurationType": "Infinite",
+          "Duration": 1,
+          "MaxStackQuantity": 0,
+          "ApplicationBehavior": "StackIfAlreadyApplied",
+          "ApplicationType": "ApplyOnStart",
+          "IntervalRateID": "00000000-0000-0000-0000-000000000000",
+          "StackedChildrenApplyEffects": "false",
+          "InclusionConditions": {
+            "Operator": 0,
+            "Components": []
+          },
+          "ApplicationPrerequisites": {
+            "Conditional": {
+              "Operator": 0,
+              "Components": []
+            }
+          },
+          "TriggerAdjustment": {
+            "TriggerOnEvent": "None",
+            "TriggerOffEvent": "None",
+            "ValidateWithAttackFilter": "false",
+            "ParamValue": 0,
+            "ValueAdjustment": 0,
+            "DurationAdjustment": 0,
+            "ResetTriggerOnEffectTimeout": "false",
+            "MaxTriggerCount": 0,
+            "IgnoreMaxTriggerCount": "false",
+            "RemoveEffectAtMax": "false",
+            "ChanceToTrigger": 1
+          },
+          "PowerLevelScaling": {
+            "UseCharacterLevel": "false",
+            "BaseLevel": 0,
+            "LevelIncrement": 1,
+            "MaxLevel": 0,
+            "ValueAdjustment": 0,
+            "DurationAdjustment": 0
+          },
+          "IsHostile": "false",
+          "ClearOnCombatEnd": "false",
+          "ClearOnRest": "false",
+          "ClearOnFoodRest": "false",
+          "ClearWhenAttacks": "false",
+          "ClearOnDeath": "false",
+          "HideFromCombatTooltip": "false",
+          "HideFromCombatLog": "false",
+          "HideFromUI": "false",
+          "HideIfNoValue": "false",
+          "VisualEffects": [],
+          "MaterialReplacementID": "00000000-0000-0000-0000-000000000000",
+          "AttackFilter": {
+            "KeywordsIDs": [],
+            "KeywordLogic": "Or",
+            "Race": "None",
+            "IsKith": "false",
+            "HealthPercentage": 0,
+            "HealthOperator": "EqualTo",
+            "Range": "None",
+            "ClassTypeID": "00000000-0000-0000-0000-000000000000",
+            "Source": "None",
+            "DefendedBy": "None",
+            "Empowered": "false",
+            "Disengagement": "false",
+            "Stealthed": "false",
+            "UseStealthLinger": "false",
+            "PowerLevel": 0,
+            "PowerLevelOperator": "EqualTo",
+            "ChanceToApply": 1,
+            "AttackHostility": "Default",
+            "TargetType": "None"
+          },
+          "AttackTargetFilter": {
+            "KeywordsIDs": [],
+            "KeywordLogic": "Or",
+            "Race": "None",
+            "IsKith": "false",
+            "HealthPercentage": 0,
+            "HealthOperator": "EqualTo",
+            "Distance": 0,
+            "DistanceOperator": "EqualTo",
+            "HasDOT": "false",
+            "IsMarked": "false",
+            "TargetHostility": "Default"
+          },
+          "ExtraValue": 0,
+          "OverridePenetration": 0,
+          "DamageTypeValue": "All",
+          "KeywordValueID": "00000000-0000-0000-0000-000000000000",
+          "RaceValue": "None",
+          "StatusEffectTypeValue": "None",
+          "ItemValueID": "00000000-0000-0000-0000-000000000000",
+          "AfflictionTypeValueID": "00000000-0000-0000-0000-000000000000",
+          "StatusEffectsValueIDs": [],
+          "AttackValueID": "00000000-0000-0000-0000-000000000000",
+          "AttackOverrideValue": "None",
+          "EventValue": "OnApply",
+          "ClassValueID": "00000000-0000-0000-0000-000000000000",
+          "WeaponTypeValue": "None",
+          "AttackHitType": "None",
+          "SkillValueID": "00000000-0000-0000-0000-000000000000",
+          "AudioEventListID": "00000000-0000-0000-0000-000000000000",
+          "BedRestDaysMinimum": 0,
+          "BedRestDaysMaximum": 0
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "Pet_LastDance_Special_Invisible_On_Stealth",
+      "ID": "6af14dcf-9e23-4690-b3d0-150ebdb1f90e",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "StatusEffectType": "Invisible",
+          "OverrideDescriptionString": -1,
+          "OverrideDescriptionStringTactical": -1,
+          "UseStatusEffectValueAs": "None",
+          "BaseValue": 0,
+          "DynamicValue": {
+            "Stat": "None",
+            "SkillDataID": "00000000-0000-0000-0000-000000000000",
+            "ClassID": "00000000-0000-0000-0000-000000000000",
+            "MultiplyBy": 1,
+            "Operator": "Add"
+          },
+          "KeywordsIDs": [],
+          "DurationType": "Infinite",
+          "Duration": 1,
+          "MaxStackQuantity": 0,
+          "ApplicationBehavior": "UseLongerDurationIfAlreadyApplied",
+          "ApplicationType": "ApplyOnStart",
+          "IntervalRateID": "00000000-0000-0000-0000-000000000000",
+          "StackedChildrenApplyEffects": "false",
+          "InclusionConditions": {
+            "Operator": 0,
+            "Components": []
+          },
+          "ApplicationPrerequisites": {
+            "Conditional": {
+              "Operator": 0,
+              "Components": []
+            }
+          },
+          "TriggerAdjustment": {
+            "TriggerOnEvent": "None",
+            "TriggerOffEvent": "None",
+            "ValidateWithAttackFilter": "false",
+            "ParamValue": 0,
+            "ValueAdjustment": 0,
+            "DurationAdjustment": 0,
+            "ResetTriggerOnEffectTimeout": "false",
+            "MaxTriggerCount": 0,
+            "IgnoreMaxTriggerCount": "false",
+            "RemoveEffectAtMax": "false",
+            "ChanceToTrigger": 1
+          },
+          "PowerLevelScaling": {
+            "UseCharacterLevel": "false",
+            "BaseLevel": 0,
+            "LevelIncrement": 1,
+            "MaxLevel": 0,
+            "ValueAdjustment": 0,
+            "DurationAdjustment": 0
+          },
+          "IsHostile": "false",
+          "ClearOnCombatEnd": "false",
+          "ClearOnRest": "false",
+          "ClearOnFoodRest": "false",
+          "ClearWhenAttacks": "false",
+          "ClearOnDeath": "false",
+          "HideFromCombatTooltip": "false",
+          "HideFromCombatLog": "true",
+          "HideFromUI": "false",
+          "HideIfNoValue": "false",
+          "VisualEffects": [],
+          "MaterialReplacementID": "00000000-0000-0000-0000-000000000000",
+          "AttackFilter": {
+            "KeywordsIDs": [],
+            "KeywordLogic": "Or",
+            "Race": "None",
+            "IsKith": "false",
+            "HealthPercentage": 0,
+            "HealthOperator": "EqualTo",
+            "Range": "None",
+            "ClassTypeID": "00000000-0000-0000-0000-000000000000",
+            "Source": "None",
+            "DefendedBy": "None",
+            "Empowered": "false",
+            "Disengagement": "false",
+            "Stealthed": "false",
+            "UseStealthLinger": "false",
+            "PowerLevel": 0,
+            "PowerLevelOperator": "EqualTo",
+            "ChanceToApply": 1,
+            "AttackHostility": "Default",
+            "TargetType": "None"
+          },
+          "AttackTargetFilter": {
+            "KeywordsIDs": [],
+            "KeywordLogic": "Or",
+            "Race": "None",
+            "IsKith": "false",
+            "HealthPercentage": 0,
+            "HealthOperator": "EqualTo",
+            "Distance": 0,
+            "DistanceOperator": "EqualTo",
+            "HasDOT": "false",
+            "IsMarked": "false",
+            "TargetHostility": "Default"
+          },
+          "ExtraValue": 0,
+          "OverridePenetration": 0,
+          "DamageTypeValue": "All",
+          "KeywordValueID": "00000000-0000-0000-0000-000000000000",
+          "RaceValue": "None",
+          "StatusEffectTypeValue": "None",
+          "ItemValueID": "00000000-0000-0000-0000-000000000000",
+          "AfflictionTypeValueID": "00000000-0000-0000-0000-000000000000",
+          "StatusEffectsValueIDs": [],
+          "AttackValueID": "00000000-0000-0000-0000-000000000000",
+          "AttackOverrideValue": "None",
+          "EventValue": "OnApply",
+          "ClassValueID": "00000000-0000-0000-0000-000000000000",
+          "WeaponTypeValue": "None",
+          "AttackHitType": "None",
+          "SkillValueID": "00000000-0000-0000-0000-000000000000",
+          "AudioEventListID": "00000000-0000-0000-0000-000000000000",
+          "BedRestDaysMinimum": 0,
+          "BedRestDaysMaximum": 0
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "Pet_BACKER_PartyAbility_SE_HealingDealtMult",
+      "ID": "0859a036-5bd2-4ed1-9341-c5e5dd4e4290",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "ApplicationBehavior": "StackWithAllSimilarDataEffects"
         }
       ]
     }

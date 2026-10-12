@@ -12,5 +12,10 @@
       <DefaultText>Of Magic</DefaultText>
       <FemaleText />
     </Entry>
+    <Entry>
+      <ID>1256211002</ID>
+      <DefaultText>Of Mastery</DefaultText>
+      <FemaleText />
+    </Entry>
   </Entries>
 </StringTableFile>

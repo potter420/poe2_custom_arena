@@ -1,0 +1,20 @@
+{
+  "GameDataObjects": [
+    {
+      "$type": "Game.GameData.KeywordGameData, Assembly-CSharp",
+      "DebugName": "ArenaMod01_FreeCast_Keyword",
+      "ID": "dd757e57-137d-4635-9d49-e820dc252431",
+      "Components": [
+        {
+          "$type": "Game.GameData.KeywordComponent, Assembly-CSharp",
+          "GuiDisplayString": 1256211001,
+          "AbilitiesDisplayString": -1,
+          "Description": -1,
+          "OverridePluralEffect": -1,
+          "Icon": "",
+          "TintableIcon": ""
+        }
+      ]
+    }
+  ]
+}

@@ -17,5 +17,15 @@
       <DefaultText>Pet enhance overall combat abilities</DefaultText>
       <FemaleText />
     </Entry>
+    <Entry>
+      <ID>1256211002</ID>
+      <DefaultText>TrueStealth</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>1256211003</ID>
+      <DefaultText>Become Invisible upon entering stealth</DefaultText>
+      <FemaleText />
+    </Entry>
   </Entries>
 </StringTableFile>

@@ -25,6 +25,7 @@ namespace CombatExtender.Patches
                     || slot == PermittedEquipmentSlot.Waist
                     || slot == PermittedEquipmentSlot.Head
                     || slot == PermittedEquipmentSlot.Feet
+                    || slot == PermittedEquipmentSlot.Hand
                 ))
                     __result = true;
             }

@@ -7,5 +7,10 @@
       <DefaultText>Pet Aura</DefaultText>
       <FemaleText />
     </Entry>
+    <Entry>
+      <ID>1256211001</ID>
+      <DefaultText>Free Cast</DefaultText>
+      <FemaleText />
+    </Entry>
   </Entries>
 </StringTableFile>

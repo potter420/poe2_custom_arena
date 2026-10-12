@@ -10,6 +10,10 @@
           "BasePlayerLevelCap": 33,
           "MaxCharacterLevel": 45,
           "MaxAttributeScore": 55
+        },
+        {
+          "$type": "Game.GameData.SpellSettingsComponent, Assembly-CSharp",
+          "GrimoireMaxSpellsPerLevel": 2
         }
       ]
     }
